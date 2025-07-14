@@ -2,9 +2,7 @@ name: Download Heureka Export
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 08 * * *'   # every day at 00:00 UTC
-    - cron: '0 14 * * *'  # every day at 12:00 UTC
+
 
 permissions:
   contents: write
