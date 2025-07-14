@@ -2,6 +2,9 @@ name: Download Heureka Export
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'   # every day at 08:00 Prague (summer)
+    - cron: '0 12 * * *'  # every day at 14:00 Prague (summer)
 
 
 permissions:
@@ -17,12 +20,12 @@ jobs:
 
       - name: Download file
         run: |
-          curl -o heureka_reviews.xml "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
+          curl -o heureka_reviews_cz.xml "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
 
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add heureka_reviews.xml
-          git commit -m "Update heureka_reviews.xml" || echo "No changes to commit"
+          git add heureka_review_czs.xml
+          git commit -m "Update heureka_reviews_cz.xml" || echo "No changes to commit"
           git push
