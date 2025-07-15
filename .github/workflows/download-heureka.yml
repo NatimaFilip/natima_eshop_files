@@ -31,9 +31,9 @@ jobs:
         run: |
           npx xml-js heureka_reviews_cz.xml --compact --spaces 2 > heureka_reviews_cz.json
 
-      - name: Trim to first 20 reviews
+      - name: Trim to first 20 reviews and remove _declaration
         run: |
-          jq '.reviews.review |= .[:20]' heureka_reviews_cz.json > trimmed.json
+          jq 'del(._declaration) | .reviews.review |= .[:20]' heureka_reviews_cz.json > trimmed.json
           mv trimmed.json heureka_reviews_cz.json
 
       # Optional: Convert back to XML if you want both versions
@@ -46,5 +46,5 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add heureka_reviews_cz.json
-          git commit -m "Update heureka_reviews_cz.json with first 12 reviews" || echo "No changes to commit"
+          git commit -m "Update heureka_reviews_cz.json with first 20 reviews and removed declaration" || echo "No changes to commit"
           git push
