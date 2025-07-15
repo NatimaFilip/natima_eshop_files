@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 6 * * *'   # every day at 08:00 Prague (summer)
-    - cron: '0 12 * * *'  # every day at 14:00 Prague (summer)
+    - cron: '0 10 * * *'  # every day at 12:00 Prague (summer)
 
 
 permissions:
@@ -26,6 +26,6 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add heureka_review_czs.xml
+          git add heureka_reviews_cz.xml
           git commit -m "Update heureka_reviews_cz.xml" || echo "No changes to commit"
           git push
