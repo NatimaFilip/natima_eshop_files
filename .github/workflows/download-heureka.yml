@@ -33,7 +33,7 @@ jobs:
 
       - name: Filter for total_rating = 5 and trim to first 12
         run: |
-          jq '.reviews.review |= map(select(.total_rating == "5")) | .reviews.review |= .[:12]' heureka_reviews_cz.json > trimmed.json
+          jq '.reviews.review |= map(select(.total_rating == 5)) | .reviews.review |= .[:12]' heureka_reviews_cz.json > trimmed.json
           mv trimmed.json heureka_reviews_cz.json
 
       # Optional: Convert back to XML
