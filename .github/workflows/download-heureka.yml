@@ -1,4 +1,4 @@
-name: Download Heureka Export
+name: Download and Trim Heureka Export
 
 on:
   workflow_dispatch:
@@ -6,12 +6,11 @@ on:
     - cron: '0 6 * * *'   # every day at 08:00 Prague (summer)
     - cron: '0 10 * * *'  # every day at 12:00 Prague (summer)
 
-
 permissions:
   contents: write
 
 jobs:
-  download-and-commit:
+  download-and-trim:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,10 +21,21 @@ jobs:
         run: |
           curl -o heureka_reviews_cz.xml "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
 
+      - name: Trim to first 12 reviews
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
+          # Create a trimmed version with only the first 12 <review> elements
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > trimmed.xml
+          echo '<reviews>' >> trimmed.xml
+          xmlstarlet sel -t -m "/reviews/review[position()<=12]" -c "." heureka_reviews_cz.xml >> trimmed.xml
+          echo '</reviews>' >> trimmed.xml
+          mv trimmed.xml heureka_reviews_cz.xml
+
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add heureka_reviews_cz.xml
-          git commit -m "Update heureka_reviews_cz.xml" || echo "No changes to commit"
+          git commit -m "Update heureka_reviews_cz.xml with first 12 reviews" || echo "No changes to commit"
           git push
