@@ -31,9 +31,9 @@ jobs:
         run: |
           npx xml-js heureka_reviews_cz.xml --compact --spaces 2 > heureka_reviews_cz.json
 
-      - name: Trim to first 12 reviews
+      - name: Trim to first 20 reviews
         run: |
-          jq '.reviews.review |= .[:12]' heureka_reviews_cz.json > trimmed.json
+          jq '.reviews.review |= .[:20]' heureka_reviews_cz.json > trimmed.json
           mv trimmed.json heureka_reviews_cz.json
 
       # Optional: Convert back to XML if you want both versions
