@@ -1,4 +1,4 @@
-name: Download and Trim Heureka Export
+name: Download and Convert Heureka Export
 
 on:
   workflow_dispatch:
@@ -10,32 +10,41 @@ permissions:
   contents: write
 
 jobs:
-  download-and-trim:
+  download-convert-trim:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download file
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq npm
+          npm install -g xml-js
+
+      - name: Download XML file
         run: |
           curl -o heureka_reviews_cz.xml "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
 
+      - name: Convert XML to JSON
+        run: |
+          npx xml-js heureka_reviews_cz.xml --compact --spaces 2 > heureka_reviews_cz.json
+
       - name: Trim to first 12 reviews
         run: |
-          sudo apt-get update
-          sudo apt-get install -y xmlstarlet
-          # Create a trimmed version with only the first 12 <review> elements
-          echo '<?xml version="1.0" encoding="UTF-8"?>' > trimmed.xml
-          echo '<reviews>' >> trimmed.xml
-          xmlstarlet sel -t -m "/reviews/review[position()<=12]" -c "." heureka_reviews_cz.xml >> trimmed.xml
-          echo '</reviews>' >> trimmed.xml
-          mv trimmed.xml heureka_reviews_cz.xml
+          jq '.reviews.review |= .[:12]' heureka_reviews_cz.json > trimmed.json
+          mv trimmed.json heureka_reviews_cz.json
+
+      # Optional: Convert back to XML if you want both versions
+      # - name: Convert JSON back to XML
+      #   run: |
+      #     npx xml-js heureka_reviews_cz.json --compact --spaces 2 --reverse > heureka_reviews_cz.xml
 
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add heureka_reviews_cz.xml
-          git commit -m "Update heureka_reviews_cz.xml with first 12 reviews" || echo "No changes to commit"
+          git add heureka_reviews_cz.json
+          git commit -m "Update heureka_reviews_cz.json with first 12 reviews" || echo "No changes to commit"
           git push
