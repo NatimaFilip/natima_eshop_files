@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "858282239"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1753598574"
+        },
+        "unix_timestamp": {
+          "_text": "1754197055"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Opakovaný nákup, vždy vše v pořádku, rychlé doručení"
+        },
+        "order_id": {
+          "_text": "125044398"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "854972269"
         },
         "source": {
@@ -1774,44 +1809,6 @@
         },
         "order_id": {
           "_text": "125038347"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "854050525"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1751906933"
-        },
-        "unix_timestamp": {
-          "_text": "1752474558"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "4.5"
-        },
-        "pros": {
-          "_cdata": "Rychla komunikace vse ok"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu. Vážíme si toho, že jste spokojená s naší komunikací. Naší prioritou je vždy poskytovat rychlou a profesionální zákaznickou podporu.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125038541"
         }
       }
     ]
