@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "862128312"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1755368548"
+        },
+        "unix_timestamp": {
+          "_text": "1756015530"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "rychlost"
+        },
+        "order_id": {
+          "_text": "125050089"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "862039799"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1755328443"
+        },
+        "unix_timestamp": {
+          "_text": "1755963722"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlost dodání, skvělý výběr produktů v top kvalitě"
+        },
+        "order_id": {
+          "_text": "125049988"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "862129701"
         },
         "source": {
@@ -1832,82 +1902,6 @@
         },
         "order_id": {
           "_text": "125044706"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "858133781"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1753510250"
-        },
-        "unix_timestamp": {
-          "_text": "1754235967"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "zboží  vždy dojde včas a v pořádku"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125044200"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "858282239"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1753598574"
-        },
-        "unix_timestamp": {
-          "_text": "1754197055"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Opakovaný nákup, vždy vše v pořádku, rychlé doručení"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125044398"
         }
       }
     ]
