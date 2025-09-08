@@ -1,0 +1,40 @@
+name: Download and Convert Heureka Export
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'   # every day at 08:00 Prague (summer)
+    - cron: '0 10 * * *'  # every day at 12:00 Prague (summer)
+
+permissions:
+  contents: write
+
+jobs:
+  download-convert-trim:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq npm
+          npm install -g xml-js
+
+      - name: Download XML file
+        run: |
+          curl -o filters_cz.xml "https://www.natima.cz/export/products.xls?patternId=257&partnerId=6&hash=c077f5ea0a84aef7df9d64ebca3a29e881b80d5b91b9c4e3f2819b929a7ad3af"
+
+      - name: Convert XML to JSON
+        run: |
+          npx xml-js filters_cz.xml --compact --spaces 2 > filters_cz.json
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add filters_cz.json
+          git commit -m "Download cz filters" || echo "No changes to commit"
+          git push
