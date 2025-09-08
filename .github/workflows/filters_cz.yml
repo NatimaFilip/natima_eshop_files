@@ -3,8 +3,9 @@ name: Download and Convert Heureka Export
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'   # every day at 04:00 Prague (summer)
-    - cron: '0 14 * * *'  # every day at 14:00 Prague (summer)
+    # GitHub cron uses UTC. 04:00 and 14:00 Prague *summer* ≈ 02:00 and 12:00 UTC.
+    - cron: '0 2 * * *'
+    - cron: '0 12 * * *'
 
 permissions:
   contents: write
@@ -17,24 +18,36 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install tools
+      - name: Install Python deps for XLS→JSON
         run: |
-          sudo apt-get update
-          sudo apt-get install -y jq npm
-          npm install -g xml-js
+          python3 -V
+          python3 -m pip install --upgrade pip
+          # pandas + engines: openpyxl for .xlsx, xlrd==1.2.0 for legacy .xls
+          python3 -m pip install pandas openpyxl xlrd==1.2.0
 
-      - name: Download XML file
+      - name: Download XLS/XLSX file
         run: |
-          curl -o filters_cz.xml "https://www.natima.cz/export/products.xls?patternId=257&partnerId=6&hash=c077f5ea0a84aef7df9d64ebca3a29e881b80d5b91b9c4e3f2819b929a7ad3af"
+          # Change the filename extension to match what the server serves (.xls or .xlsx)
+          curl -L --fail -o filters_cz.xls "url hidden"
 
-      - name: Convert XML to JSON
+      - name: Convert Excel to JSON (all sheets)
         run: |
-          npx xml-js filters_cz.xml --compact --spaces 2 > filters_cz.json
+          python3 - << 'PY'
+          import json, pandas as pd, os, sys
+          in_path = "filters_cz.xls"  # if the source is .xlsx, rename accordingly
+          # Read all sheets into a dict of DataFrames
+          sheets = pd.read_excel(in_path, sheet_name=None)
+          # Convert each sheet to list-of-records; replace NaN with empty string for JSON-friendliness
+          out = {name: df.fillna("").to_dict(orient="records") for name, df in sheets.items()}
+          with open("filters_cz.json", "w", encoding="utf-8") as f:
+              json.dump(out, f, ensure_ascii=False, indent=2)
+          print(f"Wrote filters_cz.json with {len(out)} sheet(s).")
+          PY
 
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add filters_cz.json
-          git commit -m "Download cz filters" || echo "No changes to commit"
+          git commit -m "Download and convert CZ filters (XLS→JSON)" || echo "No changes to commit"
           git push
