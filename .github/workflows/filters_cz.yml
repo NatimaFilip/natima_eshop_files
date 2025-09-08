@@ -30,19 +30,28 @@ jobs:
           # Change the filename extension to match what the server serves (.xls or .xlsx)
           curl -L --fail -o filters_cz.xls "https://www.natima.cz/export/products.xls?patternId=257&partnerId=6&hash=c077f5ea0a84aef7df9d64ebca3a29e881b80d5b91b9c4e3f2819b929a7ad3af"
 
-      - name: Convert Excel to JSON (all sheets)
+      - name: Convert Excel to JSON (only code + Množství)
         run: |
           python3 - << 'PY'
-          import json, pandas as pd, os, sys
-          in_path = "filters_cz.xls"  # if the source is .xlsx, rename accordingly
-          # Read all sheets into a dict of DataFrames
-          sheets = pd.read_excel(in_path, sheet_name=None)
-          # Convert each sheet to list-of-records; replace NaN with empty string for JSON-friendliness
-          out = {name: df.fillna("").to_dict(orient="records") for name, df in sheets.items()}
+          import json, pandas as pd
+
+          in_path = "filters_cz.xls"  # or .xlsx
+
+          # Read the *only* sheet, regardless of its name
+          df = pd.read_excel(in_path, sheet_name=0)
+
+          # Keep only the desired columns
+          df = df[["code", "filteringProperty:Množství"]]
+
+          # Convert to list of dicts
+          records = df.fillna("").to_dict(orient="records")
+
           with open("filters_cz.json", "w", encoding="utf-8") as f:
-              json.dump(out, f, ensure_ascii=False, indent=2)
-          print(f"Wrote filters_cz.json with {len(out)} sheet(s).")
+              json.dump(records, f, ensure_ascii=False, indent=2)
+
+          print(f"Wrote {len(records)} rows to filters_cz.json")
           PY
+
 
       - name: Commit and push changes
         run: |
