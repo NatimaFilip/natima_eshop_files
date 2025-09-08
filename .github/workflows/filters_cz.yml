@@ -46,10 +46,11 @@ jobs:
           # Convert to list of dicts
           records = df.fillna("").to_dict(orient="records")
 
+          # Write MINIFIED JSON (no spaces/newlines)
           with open("filters_cz.json", "w", encoding="utf-8") as f:
-              json.dump(records, f, ensure_ascii=False, indent=2)
+            json.dump(records, f, ensure_ascii=False, separators=(",", ":"))
 
-          print(f"Wrote {len(records)} rows to filters_cz.json")
+          print(f"Wrote {len(records)} rows to filters_cz.json (minified).")
           PY
 
 
