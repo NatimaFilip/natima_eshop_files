@@ -3,8 +3,8 @@ name: Download and Convert Heureka Export
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'   # every day at 08:00 Prague (summer)
-    - cron: '0 10 * * *'  # every day at 12:00 Prague (summer)
+    - cron: '0 4 * * *'   # every day at 04:00 Prague (summer)
+    - cron: '0 14 * * *'  # every day at 14:00 Prague (summer)
 
 permissions:
   contents: write
