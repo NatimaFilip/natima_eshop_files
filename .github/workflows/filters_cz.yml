@@ -28,7 +28,7 @@ jobs:
       - name: Download XLS/XLSX file
         run: |
           # Change the filename extension to match what the server serves (.xls or .xlsx)
-          curl -L --fail -o filters_cz.xls "url hidden"
+          curl -L --fail -o filters_cz.xls "https://www.natima.cz/export/products.xls?patternId=257&partnerId=6&hash=c077f5ea0a84aef7df9d64ebca3a29e881b80d5b91b9c4e3f2819b929a7ad3af"
 
       - name: Convert Excel to JSON (all sheets)
         run: |
