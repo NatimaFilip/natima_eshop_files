@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "210205202"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1758621293"
+        },
+        "unix_timestamp": {
+          "_text": "1759220342"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Spoľahlivé a rýchle doručenie."
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojný s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
+        "order_id": {
+          "_text": "225017892"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "210239681"
         },
         "source": {
@@ -31,6 +69,9 @@
         },
         "summary": {
           "_cdata": "Dalo sa spoľahnúť na tovar ktorý si človek objednal a prisiel naozaj na čas"
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojná s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
         },
         "order_id": {
           "_text": "225017939"
@@ -67,6 +108,9 @@
         "summary": {
           "_cdata": "výborné šampony ."
         },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
         "order_id": {
           "_text": "225017272"
         }
@@ -101,6 +145,9 @@
         },
         "summary": {
           "_cdata": "rýchle vybavenie, dobra komunikácia a pomer cena kvalita"
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
         },
         "order_id": {
           "_text": "225017802"
@@ -137,6 +184,9 @@
         "pros": {
           "_cdata": "100%spokojnost,rychle dodanie"
         },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojná s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
         "order_id": {
           "_text": "225017566"
         }
@@ -171,6 +221,9 @@
         },
         "pros": {
           "_cdata": "rýchle doručenie, vynikajúce produkty"
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
         },
         "order_id": {
           "_text": "225017252"
@@ -1864,47 +1917,6 @@
         },
         "order_id": {
           "_text": "225014097"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "207529368"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1754383274"
-        },
-        "unix_timestamp": {
-          "_text": "1754987237"
-        },
-        "total_rating": {
-          "_text": "4.5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Kvalitne produkty\nDobry popis k produktom\nRychle dodanie ( nasledujuci prac.den)\nVelky vyber"
-        },
-        "cons": {
-          "_cdata": "Vyššie ceny\nZiadne akcie napr. pri odbere 2 baleni 3 balenie zdarma ako to majú iné eshopy"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Chápeme, že cena je dôležitým faktorom, a preto sa snažíme ponúkať kvalitu zodpovedajúcu hodnote. Okrem toho máme vernostný program https://www.natima.sk/vernostny-program/, vďaka ktorému môžete získať zľavy na ďalšie nákupy, a tiež kategóriu „Akcia mesiaca“, kde pravidelne nájdete zvýhodnené ponuky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225013982"
         }
       }
     ]
