@@ -40,14 +40,14 @@ jobs:
           df = pd.read_excel(in_path, sheet_name=0)
 
           # Keep only relevant columns
-          df = df[["code", "filteringProperty:Množství"]]
+          df = df[["code", "filteringProperty:Množstvo"]]
 
-          # Drop rows where Množství is NaN or empty string after stripping
-          df = df.dropna(subset=["filteringProperty:Množství"])
-          df = df[df["filteringProperty:Množství"].astype(str).str.strip() != ""]
+          # Drop rows where Množstvo is NaN or empty string after stripping
+          df = df.dropna(subset=["filteringProperty:Množstvo"])
+          df = df[df["filteringProperty:Množstvo"].astype(str).str.strip() != ""]
 
           # Rename column
-          df = df.rename(columns={"filteringProperty:Množství": "value"})
+          df = df.rename(columns={"filteringProperty:Množstvo": "value"})
 
           # Convert to list of dicts
           records = df.to_dict(orient="records")
