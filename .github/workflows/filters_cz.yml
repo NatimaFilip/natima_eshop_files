@@ -1,5 +1,4 @@
-name: Download and Convert Heureka Export
-
+name: Download filters_CZ
 on:
   workflow_dispatch:
   schedule:
