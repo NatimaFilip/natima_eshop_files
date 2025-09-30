@@ -1,0 +1,69 @@
+name: Download filters_SK
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron uses UTC. 04:00 and 14:00 Prague *summer* ≈ 02:00 and 12:00 UTC.
+    - cron: '0 3 * * *'
+    - cron: '0 13 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  download-convert-trim:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python deps for XLS→JSON
+        run: |
+          python3 -V
+          python3 -m pip install --upgrade pip
+          # pandas + engines: openpyxl for .xlsx, xlrd==1.2.0 for legacy .xls
+          python3 -m pip install pandas openpyxl xlrd==1.2.0
+
+      - name: Download XLS/XLSX file
+        run: |
+          # Change the filename extension to match what the server serves (.xls or .xlsx)
+          curl -L --fail -o filters_sk.xls "https://www.natima.sk/export/products.xls?patternId=124&partnerId=9&hash=e8c6482d44a6fbaf34a883edbea75aa6392575d0086cfef31b2a39dede6790c5"
+    
+      - name: Convert Excel to MINIFIED JSON (code + value, non-empty only)
+        run: |
+          python3 - << 'PY'
+          import json, pandas as pd
+
+          in_path = "filters_sk.xls"  # or .xlsx
+
+          # Read the only sheet, regardless of its name
+          df = pd.read_excel(in_path, sheet_name=0)
+
+          # Keep only relevant columns
+          df = df[["code", "filteringProperty:Množství"]]
+
+          # Drop rows where Množství is NaN or empty string after stripping
+          df = df.dropna(subset=["filteringProperty:Množství"])
+          df = df[df["filteringProperty:Množství"].astype(str).str.strip() != ""]
+
+          # Rename column
+          df = df.rename(columns={"filteringProperty:Množství": "value"})
+
+          # Convert to list of dicts
+          records = df.to_dict(orient="records")
+
+          # Write MINIFIED JSON (no spaces/newlines)
+          with open("filters_sk.json", "w", encoding="utf-8") as f:
+            json.dump(records, f, ensure_ascii=False, separators=(",", ":"))
+
+          print(f"Wrote {len(records)} non-empty rows to filters_sk.json (minified).")
+          PY
+
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add filters_sk.json
+          git commit -m "Download and convert SK filters (XLS→JSON)" || echo "No changes to commit"
+          git push
