@@ -1,4 +1,4 @@
-name: Download and Convert Heureka Export
+name: Download and Convert Heureka Export_CZ
 
 on:
   workflow_dispatch:
