@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "210416825"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1758965344"
+        },
+        "unix_timestamp": {
+          "_text": "1759607582"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Veľmi dobré magnézium, vhodné pre tetanikov keďže má 80-90% vstrebateľnosť."
+        },
+        "order_id": {
+          "_text": "225018199"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "210361912"
         },
         "source": {
@@ -1855,47 +1890,6 @@
         },
         "order_id": {
           "_text": "225014410"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "207745041"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1754738721"
-        },
-        "unix_timestamp": {
-          "_text": "1755335250"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Easy to choose on site, easy to order."
-        },
-        "summary": {
-          "_cdata": "Big choice of products in one place."
-        },
-        "reaction": {
-          "_cdata": "Hello,\r\n\r\nWe greatly appreciate your positive feedback. The satisfaction of our customers is our highest priority. We look forward to your future orders.\r\n\r\nWishing you a wonderful day,\r\nOn behalf of the Natima team, Kateřina."
-        },
-        "order_id": {
-          "_text": "225014298"
         }
       }
     ]
