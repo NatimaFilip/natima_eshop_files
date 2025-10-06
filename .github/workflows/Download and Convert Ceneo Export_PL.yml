@@ -1,15 +1,16 @@
-name: Daily Ceneo Reviews Scraper (single-file)
+name: Daily Ceneo Reviews Scraper
 
 on:
   schedule:
-    - cron: "5 5 * * *" # daily 05:05 UTC (~07:05 Prague)
-  workflow_dispatch:
+    - cron: "5 5 * * *"   # runs daily at 05:05 UTC (≈07:05 Prague time)
+  workflow_dispatch:      # allow manual runs from Actions tab
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -17,88 +18,18 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install Playwright
+      - name: Install dependencies
         run: |
-          set -e
-          npm i playwright@^1.47
-          npx playwright install chromium
+          npm ci || npm i
 
-      - name: Run inline scraper
-        shell: bash
-        run: |
-          set -e
-          set -x
-          mkdir -p data
-          node - <<'NODE'
-          import fs from "node:fs";
-          import { chromium } from "playwright";
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
 
-          const URL = "https://www.ceneo.pl/sklepy/natima.pl-s51196#tab=reviews";
-          const OUT_FILE = "data/reviews.json";
-
-          const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-
-          (async () => {
-            const browser = await chromium.launch({ headless: true });
-            const page = await browser.newPage();
-            await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
-
-            let loaded = false;
-            for (let attempt = 1; attempt <= 3; attempt++) {
-              try {
-                await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 90000 });
-                loaded = true;
-                break;
-              } catch (e) {
-                console.log(`Attempt ${attempt} failed: ${e.message}`);
-                await sleep(3000);
-              }
-            }
-            if (!loaded) throw new Error("Failed to load page after 3 attempts");
-
-            try {
-              const consent = await page.$('text=/accept|zgadzam|akceptuj/i');
-              if (consent) await consent.click({ timeout: 2000 });
-            } catch {}
-
-            await page.waitForSelector(".user-post", { timeout: 60000 });
-            await sleep(1000);
-
-            const records = await page.$$eval(".user-post", (posts) => {
-              const getText = (root, sel) => {
-                const el = root.querySelector(sel);
-                return el ? el.textContent : "";
-              };
-              const firstScore = (raw) => {
-                if (typeof raw !== "string") return "";
-                const first = raw.split("/")[0] ?? "";
-                return first.trim();
-              };
-
-              return posts.map((post) => {
-                const textRaw = getText(post, ".user-post__text");
-                const scoreRaw = getText(post, ".user-post__score-count");
-                return {
-                  total_rating: { _text: firstScore(scoreRaw) },
-                  summary: { _text: textRaw ?? "" },
-                };
-              });
-            });
-
-            const payload = { reviews: { review: records } };
-            fs.writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2), "utf8");
-
-            await browser.close();
-            console.log(`Saved ${records.length} reviews -> ${OUT_FILE}`);
-          })().catch((e) => {
-            console.error(e);
-            process.exit(1);
-          });
-          NODE
+      - name: Run scraper
+        run: node scripts/scrape-ceneo-reviews.cjs
 
       - name: Commit changes (if any)
         run: |
-          set -e
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -107,3 +38,4 @@ jobs:
             git push
           else
             echo "No changes to commit."
+          fi
