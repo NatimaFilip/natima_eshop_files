@@ -6,7 +6,8 @@ const path = require("node:path");
 const { chromium } = require("playwright");
 
 const URL = "https://www.ceneo.pl/sklepy/natima.pl-s51196#tab=reviews";
-const OUT_FILE = path.join(__dirname, "ceneo_reviews_pl.json");
+const OUT_DIR = "data";
+const OUT_FILE = path.join(OUT_DIR, "ceneo_reviews_pl.json");
 
 (async () => {
 	const browser = await chromium.launch({ headless: true });
@@ -21,7 +22,7 @@ const OUT_FILE = path.join(__dirname, "ceneo_reviews_pl.json");
 	await page.goto(URL, { waitUntil: "networkidle", timeout: 120000 });
 
 	// Ensure the Reviews tab has actually loaded DOM content
-	await page.waitForSelector(".user-post", { timeout: 60000 });
+	await page.waitForSelector(".user-post", { timeout: 30000 });
 
 	// Extract all reviews on the page
 	const records = await page.$$eval(".user-post", (posts) => {
