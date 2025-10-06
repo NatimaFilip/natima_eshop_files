@@ -1,0 +1,68 @@
+name: Download filters_PL
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron uses UTC. 01:00
+    - cron: '0 1 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  download-convert-trim:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python deps for XLS→JSON
+        run: |
+          python3 -V
+          python3 -m pip install --upgrade pip
+          # pandas + engines: openpyxl for .xlsx, xlrd==1.2.0 for legacy .xls
+          python3 -m pip install pandas openpyxl xlrd==1.2.0
+
+      - name: Download XLS/XLSX file
+        run: |
+          # Change the filename extension to match what the server serves (.xls or .xlsx)
+          curl -L --fail -o filters_pl.xls "https://www.natima.pl/export/products.xls?patternId=39&partnerId=12&hash=09265b885422a2ab15b6a1e3d3c2f6eec7f05e1138cdcd388ff5b199269d3071"
+    
+      - name: Convert Excel to MINIFIED JSON (code + value, non-empty only)
+        run: |
+          python3 - << 'PY'
+          import json, pandas as pd
+
+          in_path = "filters_pl.xls"  # or .xlsx
+
+          # Read the only sheet, regardless of its name
+          df = pd.read_excel(in_path, sheet_name=0)
+
+          # Keep only relevant columns
+          df = df[["code", "filteringProperty:Množství"]]
+
+          # Drop rows where Množství is NaN or empty string after stripping
+          df = df.dropna(subset=["filteringProperty:Množství"])
+          df = df[df["filteringProperty:Množství"].astype(str).str.strip() != ""]
+
+          # Rename column
+          df = df.rename(columns={"filteringProperty:Množství": "value"})
+
+          # Convert to list of dicts
+          records = df.to_dict(orient="records")
+
+          # Write MINIFIED JSON (no spaces/newlines)
+          with open("filters_pl.json", "w", encoding="utf-8") as f:
+            json.dump(records, f, ensure_ascii=False, separators=(",", ":"))
+
+          print(f"Wrote {len(records)} non-empty rows to filters_pl.json (minified).")
+          PY
+
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add filters_pl.json
+          git commit -m "Download and convert PL filters (XLS→JSON)" || echo "No changes to commit"
+          git push
