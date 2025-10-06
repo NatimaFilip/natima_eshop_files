@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
   schedule:
     # GitHub cron uses UTC. 04:00 and 14:00 Prague *summer* ≈ 02:00 and 12:00 UTC.
-    - cron: '0 3 * * *'
-    - cron: '0 13 * * *'
+    - cron: "0 3 * * *"
+    - cron: "0 13 * * *"
 
 permissions:
   contents: write
@@ -28,7 +28,7 @@ jobs:
         run: |
           # Change the filename extension to match what the server serves (.xls or .xlsx)
           curl -L --fail -o filters_sk.xls "https://www.natima.sk/export/products.xls?patternId=124&partnerId=9&hash=e8c6482d44a6fbaf34a883edbea75aa6392575d0086cfef31b2a39dede6790c5"
-    
+
       - name: Convert Excel to MINIFIED JSON (code + value, non-empty only)
         run: |
           python3 - << 'PY'
@@ -58,7 +58,6 @@ jobs:
 
           print(f"Wrote {len(records)} non-empty rows to filters_sk.json (minified).")
           PY
-
 
       - name: Commit and push changes
         run: |
