@@ -54,6 +54,9 @@ const OUT_FILE = path.join(OUT_DIR, "ceneo_reviews_pl.json");
 
 	const payload = { reviews: { review: records } };
 
+	// Ensure output dir exists
+	fs.mkdirSync(OUT_DIR, { recursive: true });
+
 	// Write JSON with stable formatting
 	fs.writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2), "utf8");
 
