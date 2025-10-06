@@ -1,0 +1,99 @@
+name: Download and Convert Ceneo Export_PL
+
+on:
+  schedule:
+    - cron: "5 5 * * *"   # daily 05:05 UTC (~07:05 Prague)
+  workflow_dispatch:      # allow manual runs
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Playwright
+        run: |
+          npm i playwright@^1.47
+          npx playwright install --with-deps chromium
+
+      - name: Run inline scraper
+        shell: bash
+        run: |
+          mkdir -p data
+          node - <<'NODE'
+          import fs from "node:fs";
+          import { chromium } from "playwright";
+
+          const URL = "https://www.ceneo.pl/sklepy/natima.pl-s51196#tab=reviews";
+          const OUT_FILE = "data/reviews.json";
+
+          const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+          (async () => {
+            const browser = await chromium.launch({ headless: true });
+            const page = await browser.newPage();
+
+            // Go to reviews tab and wait for content
+            await page.goto(URL, { waitUntil: "networkidle", timeout: 60000 });
+
+            // If a cookie/consent appears, try dismissing it (best-effort; ignore failures)
+            try {
+              const consent = await page.$('text=/accept|zgadzam|akceptuj/i');
+              if (consent) await consent.click({ timeout: 2000 });
+            } catch {}
+
+            // Ensure reviews exist
+            await page.waitForSelector(".user-post", { timeout: 30000 });
+
+            // (Optional) small wait to let dynamic pieces settle
+            await sleep(500);
+
+            const records = await page.$$eval(".user-post", (posts) => {
+              const getText = (root, sel) => {
+                const el = root.querySelector(sel);
+                return el ? el.textContent : "";
+              };
+              const firstScore = (raw) => {
+                if (typeof raw !== "string") return "";
+                const first = raw.split("/")[0] ?? "";
+                return first.trim(); // keep comma if present (e.g., "4,5")
+              };
+
+              return posts.map((post) => {
+                const textRaw = getText(post, ".user-post__text");
+                const scoreRaw = getText(post, ".user-post__score-count");
+                return {
+                  total_rating: { _text: firstScore(scoreRaw) },
+                  summary: { _text: textRaw ?? "" }, // save exactly as-is
+                };
+              });
+            });
+
+            const payload = { reviews: { review: records } };
+            fs.writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2), "utf8");
+
+            await browser.close();
+            console.log(`Saved ${records.length} reviews -> ${OUT_FILE}`);
+          })().catch((e) => {
+            console.error(e);
+            process.exit(1);
+          });
+          NODE
+
+      - name: Commit changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/reviews.json
+            git commit -m "chore: update Ceneo reviews ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
