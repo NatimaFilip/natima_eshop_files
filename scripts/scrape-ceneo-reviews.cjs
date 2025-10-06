@@ -18,10 +18,10 @@ const OUT_FILE = path.join(__dirname, "ceneo_reviews_pl.json");
 	const page = await context.newPage();
 
 	// Go to the Reviews tab and wait for reviews to render
-	await page.goto(URL, { waitUntil: "networkidle", timeout: 60000 });
+	await page.goto(URL, { waitUntil: "networkidle", timeout: 120000 });
 
 	// Ensure the Reviews tab has actually loaded DOM content
-	await page.waitForSelector(".user-post", { timeout: 30000 });
+	await page.waitForSelector(".user-post", { timeout: 60000 });
 
 	// Extract all reviews on the page
 	const records = await page.$$eval(".user-post", (posts) => {
