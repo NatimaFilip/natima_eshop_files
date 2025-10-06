@@ -14,7 +14,7 @@ const OUT_FILE = path.join(OUT_DIR, "reviews.json");
 	const page = await browser.newPage();
 
 	// Go to the Reviews tab and wait for reviews to render
-	await page.goto(URL, { waitUntil: "networkidle" });
+	await page.goto(URL, { waitUntil: "networkidle", timeout: 60000 });
 
 	// Ensure the Reviews tab has actually loaded DOM content
 	await page.waitForSelector(".user-post", { timeout: 30000 });
