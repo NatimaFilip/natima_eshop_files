@@ -1,9 +1,9 @@
-name: Download and Convert Ceneo Export_PL
+name: Daily Ceneo Reviews Scraper (single-file)
 
 on:
   schedule:
-    - cron: "5 5 * * *"   # daily 05:05 UTC (~07:05 Prague)
-  workflow_dispatch:      # allow manual runs
+    - cron: "5 5 * * *" # daily 05:05 UTC (~07:05 Prague)
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -19,12 +19,14 @@ jobs:
 
       - name: Install Playwright
         run: |
+          set -e
           npm i playwright@^1.47
-          npx playwright install --with-deps chromium
+          npx playwright install chromium
 
       - name: Run inline scraper
         shell: bash
         run: |
+          set -e
           mkdir -p data
           node - <<'NODE'
           import fs from "node:fs";
@@ -39,19 +41,14 @@ jobs:
             const browser = await chromium.launch({ headless: true });
             const page = await browser.newPage();
 
-            // Go to reviews tab and wait for content
             await page.goto(URL, { waitUntil: "networkidle", timeout: 60000 });
 
-            // If a cookie/consent appears, try dismissing it (best-effort; ignore failures)
             try {
               const consent = await page.$('text=/accept|zgadzam|akceptuj/i');
               if (consent) await consent.click({ timeout: 2000 });
             } catch {}
 
-            // Ensure reviews exist
             await page.waitForSelector(".user-post", { timeout: 30000 });
-
-            // (Optional) small wait to let dynamic pieces settle
             await sleep(500);
 
             const records = await page.$$eval(".user-post", (posts) => {
@@ -62,7 +59,7 @@ jobs:
               const firstScore = (raw) => {
                 if (typeof raw !== "string") return "";
                 const first = raw.split("/")[0] ?? "";
-                return first.trim(); // keep comma if present (e.g., "4,5")
+                return first.trim();
               };
 
               return posts.map((post) => {
@@ -70,7 +67,7 @@ jobs:
                 const scoreRaw = getText(post, ".user-post__score-count");
                 return {
                   total_rating: { _text: firstScore(scoreRaw) },
-                  summary: { _text: textRaw ?? "" }, // save exactly as-is
+                  summary: { _text: textRaw ?? "" },
                 };
               });
             });
@@ -88,6 +85,7 @@ jobs:
 
       - name: Commit changes (if any)
         run: |
+          set -e
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -96,4 +94,3 @@ jobs:
             git push
           else
             echo "No changes to commit."
-          fi
