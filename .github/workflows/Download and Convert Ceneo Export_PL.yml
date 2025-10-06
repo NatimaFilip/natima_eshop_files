@@ -2,8 +2,8 @@ name: Daily Ceneo Reviews Scraper
 
 on:
   schedule:
-    - cron: "5 5 * * *"   # runs daily at 05:05 UTC (≈07:05 Prague time)
-  workflow_dispatch:      # allow manual runs from Actions tab
+    - cron: "5 5 * * *" # runs daily at 05:05 UTC (≈07:05 Prague time)
+  workflow_dispatch: # allow manual runs from Actions tab
 
 jobs:
   scrape:
