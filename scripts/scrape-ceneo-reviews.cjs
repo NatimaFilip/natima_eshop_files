@@ -11,12 +11,12 @@ const OUT_FILE = path.join(OUT_DIR, "reviews.json");
 
 (async () => {
 	const browser = await chromium.launch({ headless: true });
-	const page = await browser.newPage();
 
-	// Set a realistic user agent to mimic a real browser
-	await page.setUserAgent(
-		"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-	);
+	const context = await browser.newContext({
+		userAgent:
+			"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+	});
+	const page = await context.newPage();
 
 	// Go to the Reviews tab and wait for reviews to render
 	await page.goto(URL, { waitUntil: "networkidle", timeout: 60000 });
