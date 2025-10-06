@@ -27,6 +27,7 @@ jobs:
         shell: bash
         run: |
           set -e
+          set -x
           mkdir -p data
           node - <<'NODE'
           import fs from "node:fs";
