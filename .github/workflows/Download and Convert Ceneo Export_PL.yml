@@ -30,12 +30,8 @@ jobs:
 
       - name: Commit changes (if any)
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add data/reviews.json
-            git commit -m "chore: update Ceneo reviews ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/reviews.json
+          git commit -m "Update ceneo_reviews_pl.json" || echo "No changes to commit"
+          git push
