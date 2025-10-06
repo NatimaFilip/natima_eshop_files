@@ -41,16 +41,28 @@ jobs:
           (async () => {
             const browser = await chromium.launch({ headless: true });
             const page = await browser.newPage();
+            await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
 
-            await page.goto(URL, { waitUntil: "networkidle", timeout: 60000 });
+            let loaded = false;
+            for (let attempt = 1; attempt <= 3; attempt++) {
+              try {
+                await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 90000 });
+                loaded = true;
+                break;
+              } catch (e) {
+                console.log(`Attempt ${attempt} failed: ${e.message}`);
+                await sleep(3000);
+              }
+            }
+            if (!loaded) throw new Error("Failed to load page after 3 attempts");
 
             try {
               const consent = await page.$('text=/accept|zgadzam|akceptuj/i');
               if (consent) await consent.click({ timeout: 2000 });
             } catch {}
 
-            await page.waitForSelector(".user-post", { timeout: 30000 });
-            await sleep(500);
+            await page.waitForSelector(".user-post", { timeout: 60000 });
+            await sleep(1000);
 
             const records = await page.$$eval(".user-post", (posts) => {
               const getText = (root, sel) => {
