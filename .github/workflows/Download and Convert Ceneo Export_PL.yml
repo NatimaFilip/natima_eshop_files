@@ -2,13 +2,15 @@ name: Daily Ceneo Reviews Scraper
 
 on:
   schedule:
-    - cron: "5 5 * * *" # runs daily at 05:05 UTC (≈07:05 Prague time)
-  workflow_dispatch: # allow manual runs from Actions tab
+    - cron: "5 5 * * *" # 05:05 UTC daily (~07:05 Prague)
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,10 +24,11 @@ jobs:
         run: |
           npm ci || npm i
 
-      - name: Install Playwright browsers
+      - name: Install Playwright (Chromium)
         run: npx playwright install --with-deps chromium
 
       - name: Run scraper
+        # ✅ make sure the path matches your file name
         run: node scripts/scrape-ceneo-reviews.cjs
 
       - name: Commit changes (if any)
