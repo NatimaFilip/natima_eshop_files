@@ -1,0 +1,12 @@
+{
+	"name": "ceneo-reviews-scraper",
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"scrape": "node scripts/scrape-ceneo-reviews.cjs"
+	},
+	"dependencies": {
+		"playwright": "^1.47.2"
+	}
+}
