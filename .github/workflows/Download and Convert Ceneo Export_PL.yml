@@ -35,6 +35,6 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add data/reviews.json
+          git add ceneo_reviews_pl.json
           git commit -m "Update ceneo_reviews_pl.json" || echo "No changes to commit"
           git push
