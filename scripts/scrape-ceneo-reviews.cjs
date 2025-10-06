@@ -6,8 +6,7 @@ const path = require("node:path");
 const { chromium } = require("playwright");
 
 const URL = "https://www.ceneo.pl/sklepy/natima.pl-s51196#tab=reviews";
-const OUT_DIR = "data";
-const OUT_FILE = path.join(OUT_DIR, "reviews.json");
+const OUT_FILE = path.join(__dirname, "ceneo_reviews_pl.json");
 
 (async () => {
 	const browser = await chromium.launch({ headless: true });
@@ -53,9 +52,6 @@ const OUT_FILE = path.join(OUT_DIR, "reviews.json");
 	});
 
 	const payload = { reviews: { review: records } };
-
-	// Ensure output dir exists
-	fs.mkdirSync(OUT_DIR, { recursive: true });
 
 	// Write JSON with stable formatting
 	fs.writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2), "utf8");
