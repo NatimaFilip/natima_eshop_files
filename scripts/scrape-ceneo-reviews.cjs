@@ -1,9 +1,9 @@
 // Requires: "playwright" in package.json
 // Saves: data/reviews.json
 
-import fs from "node:fs";
-import path from "node:path";
-import { chromium } from "playwright";
+const fs = require("node:fs");
+const path = require("node:path");
+const { chromium } = require("playwright");
 
 const URL = "https://www.ceneo.pl/sklepy/natima.pl-s51196#tab=reviews";
 const OUT_DIR = "data";
