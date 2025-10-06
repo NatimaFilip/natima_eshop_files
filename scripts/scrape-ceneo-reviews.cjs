@@ -1,5 +1,5 @@
 // Requires: "playwright" in package.json
-// Saves: data/reviews.json
+// Saves: data/ceneo_reviews_pl.json
 
 const fs = require("node:fs");
 const path = require("node:path");
@@ -24,32 +24,43 @@ const OUT_FILE = path.join(OUT_DIR, "ceneo_reviews_pl.json");
 	// Ensure the Reviews tab has actually loaded DOM content
 	await page.waitForSelector(".user-post", { timeout: 30000 });
 
-	// Extract all reviews on the page
+	// Extract and filter reviews
 	const records = await page.$$eval(".user-post", (posts) => {
 		const safeGetText = (root, sel) => {
 			const el = root.querySelector(sel);
-			// Return the raw textContent exactly as on page (no extra edits)
 			return el ? el.textContent : "";
 		};
 
-		const parseRating = (raw) => {
-			// Expect formats like "5/5" or "4,5/5"
-			// We only need the first value before "/"
-			if (typeof raw !== "string") return "";
-			const first = raw.split("/")[0] ?? "";
-			// Keep commas as-is (no normalization)
-			return first.trim();
+		const cleanText = (s) => (typeof s === "string" ? s.replace(/\n/g, "").trim() : "");
+
+		const parseScore = (raw) => {
+			// raw like "4,5/5" or "5/5" -> numeric 4.5 or 5
+			if (typeof raw !== "string") return NaN;
+			const first = (raw.split("/")[0] ?? "").replace(",", ".").trim();
+			const n = parseFloat(first);
+			return Number.isFinite(n) ? n : NaN;
 		};
 
-		return posts.map((post) => {
-			const textRaw = safeGetText(post, ".user-post__text");
-			const scoreRaw = safeGetText(post, ".user-post__score-count");
+		return posts
+			.map((post) => {
+				const textRaw = safeGetText(post, ".user-post__text");
+				const scoreRaw = safeGetText(post, ".user-post__score-count");
 
-			return {
-				total_rating: { _text: parseRating(scoreRaw) },
-				summary: { _text: textRaw ?? "" }, // save exactly as provided
-			};
-		});
+				const summaryClean = cleanText(textRaw);
+				const score = parseScore(scoreRaw);
+
+				// Filters:
+				// - skip if score < 4
+				// - skip if summary length < 3
+				if (!(score >= 4)) return null;
+				if (summaryClean.length < 3) return null;
+
+				return {
+					total_rating: { _text: (Number.isFinite(score) ? String(score).replace(".", ",") : "").trim() },
+					summary: { _text: summaryClean },
+				};
+			})
+			.filter(Boolean);
 	});
 
 	const payload = { reviews: { review: records } };
@@ -61,7 +72,7 @@ const OUT_FILE = path.join(OUT_DIR, "ceneo_reviews_pl.json");
 	fs.writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2), "utf8");
 
 	await browser.close();
-	console.log(`Saved ${records.length} reviews → ${OUT_FILE}`);
+	console.log(`Saved ${records.length} filtered reviews → ${OUT_FILE}`);
 })().catch((err) => {
 	console.error(err);
 	process.exit(1);
