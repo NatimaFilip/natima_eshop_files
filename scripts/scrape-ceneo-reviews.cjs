@@ -47,17 +47,18 @@ const OUT_FILE = path.join(OUT_DIR, "ceneo_reviews_pl.json");
 				const scoreRaw = safeGetText(post, ".user-post__score-count");
 
 				const summaryClean = cleanText(textRaw);
-				const score = parseScore(scoreRaw);
+				let score = parseScore(scoreRaw);
 
 				// Filters:
 				// - skip if score < 4
 				// - skip if summary length < 3
 				if (!(score >= 4)) return null;
+				score = 5; // force 5-star rating
 				if (summaryClean.length < 3) return null;
 
 				return {
 					total_rating: { _text: (Number.isFinite(score) ? String(score).replace(".", ",") : "").trim() },
-					summary: { _text: summaryClean },
+					summary: { _cdata: summaryClean },
 				};
 			})
 			.filter(Boolean);
