@@ -3,10 +3,10 @@
     "review": [
       {
         "total_rating": {
-          "_text": "4,5"
+          "_text": "5"
         },
         "summary": {
-          "_text": "polecam"
+          "_cdata": "Sklep ma bardzo ciekawą ofertę, działa ekspresowo ! i niezawodnie."
         }
       },
       {
@@ -14,7 +14,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Wszystko przebiegło sprawnie, polecam sprzedawcę."
+          "_cdata": "Dla mnie bardzo sprawny i dogodny sposób dostawy"
         }
       },
       {
@@ -22,7 +22,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Polecam :)"
+          "_cdata": "Spełnia oczekiwania."
         }
       },
       {
@@ -30,7 +30,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Polecam firmę"
+          "_cdata": "Czas realizacji, dostawa, towar, wszystko ok"
         }
       },
       {
@@ -38,7 +38,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Polecam usługę"
+          "_cdata": "polecam"
         }
       },
       {
@@ -46,7 +46,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Polecam sklep za solidność i szybkość działania, pozdrawiam."
+          "_cdata": "Wszystko przebiegło sprawnie, polecam sprzedawcę."
         }
       },
       {
@@ -54,15 +54,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Jestem zadowolona  i polecam firmę"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "4,5"
-        },
-        "summary": {
-          "_text": "Szybko, sprawnie bez żadnych problemow"
+          "_cdata": "Super kontakt"
         }
       },
       {
@@ -70,7 +62,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "super"
+          "_cdata": "Polecam :)"
         }
       },
       {
@@ -78,7 +70,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Super suplementy można znaleźć w Natoma"
+          "_cdata": "Polecam firmę"
         }
       },
       {
@@ -86,7 +78,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Dostawca super!"
+          "_cdata": "Polecam usługę"
         }
       },
       {
@@ -94,7 +86,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Firma którą polecam."
+          "_cdata": "Polecam sklep za solidność i szybkość działania, pozdrawiam."
         }
       },
       {
@@ -102,7 +94,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Bardzo fajny sklep internetowy, wszystko otrzymałam szybko i bez problemów. Polecam."
+          "_cdata": "Jestem zadowolona  i polecam firmę"
         }
       },
       {
@@ -110,15 +102,7 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Dość szybko i sympatycznie."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "4"
-        },
-        "summary": {
-          "_text": "Jestem pogodnym człowiekiem, obdarzonym dużą dawką poczucia humoru....."
+          "_cdata": "Szybko, sprawnie bez żadnych problemow"
         }
       },
       {
@@ -126,7 +110,23 @@
           "_text": "5"
         },
         "summary": {
-          "_text": "Szybka realizacja zamówienia"
+          "_cdata": "super"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Super suplementy można znaleźć w Natoma"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Dostawca super!"
         }
       }
     ]
