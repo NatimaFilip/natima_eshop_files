@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Szybka realizacja zamówienia. Polecam."
         }
       },
@@ -127,14 +135,6 @@
         },
         "summary": {
           "_cdata": "Szybko, sprawnie bez żadnych problemow"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "super"
         }
       }
     ]
