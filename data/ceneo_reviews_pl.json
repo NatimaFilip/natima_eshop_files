@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Polecam Wszystkim ."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko ok"
         }
       },
@@ -127,14 +135,6 @@
         },
         "summary": {
           "_cdata": "Jestem zadowolona  i polecam firmę"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Szybko, sprawnie bez żadnych problemow"
         }
       }
     ]
