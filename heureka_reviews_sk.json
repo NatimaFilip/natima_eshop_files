@@ -3,6 +3,79 @@
     "review": [
       {
         "rating_id": {
+          "_text": "210848242"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1759689861"
+        },
+        "unix_timestamp": {
+          "_text": "1760265958"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchlosť \nKomunikácia"
+        },
+        "order_id": {
+          "_text": "225018734"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "210822568"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1759664293"
+        },
+        "unix_timestamp": {
+          "_text": "1760253797"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "velky vyber produktov\nzaujimave produkty\nvyhodne ceny"
+        },
+        "cons": {
+          "_cdata": "problem resetovat heslo"
+        },
+        "order_id": {
+          "_text": "225018713"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "210816777"
         },
         "source": {
@@ -1817,85 +1890,6 @@
         },
         "order_id": {
           "_text": "225014918"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "208086888"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1755243595"
-        },
-        "unix_timestamp": {
-          "_text": "1755854769"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Dobrá komunikácia, cena, rýchle dodanie"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225014817"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "205671949"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1751816910"
-        },
-        "unix_timestamp": {
-          "_text": "1755795931"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Bezproblémový nákup\nKvalitný produkt\nDibra cena\nKomunikacia s obchodom perfektná"
-        },
-        "cons": {
-          "_cdata": "Nič"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225011479"
         }
       }
     ]
