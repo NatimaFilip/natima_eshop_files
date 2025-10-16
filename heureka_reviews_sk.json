@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "211088826"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1759999602"
+        },
+        "unix_timestamp": {
+          "_text": "1760631555"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Expresné doručenie"
+        },
+        "cons": {
+          "_cdata": "Žiadne"
+        },
+        "order_id": {
+          "_text": "225019065"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "211035150"
         },
         "source": {
@@ -1867,44 +1905,6 @@
         },
         "order_id": {
           "_text": "225015383"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "208356448"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1755669247"
-        },
-        "unix_timestamp": {
-          "_text": "1756316166"
-        },
-        "total_rating": {
-          "_text": "3.5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "4"
-        },
-        "transport_quality": {
-          "_text": "3.5"
-        },
-        "communication": {
-          "_text": "3.5"
-        },
-        "cons": {
-          "_cdata": "chipsy banánové ma prekvapili..dátum spotreby do 22.10.2025"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu spätnú väzbu a veľmi nás mrzí, že došlo k tejto nepríjemnej chybe. Naša zákaznícka podpora Vás bude kontaktovať a postaráme sa o to, aby sa všetko vyriešilo k Vašej spokojnosti.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225015233"
         }
       }
     ]
