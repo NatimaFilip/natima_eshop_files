@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "211258107"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1760253563"
+        },
+        "unix_timestamp": {
+          "_text": "1760898258"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchle dodanie"
+        },
+        "summary": {
+          "_cdata": "Veľmi kvalitné výrobky za skvelú cenu vrelo odporúčam, mne pomáha zrýchlenie metabolizmus."
+        },
+        "order_id": {
+          "_text": "225019240"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "211265763"
         },
         "source": {
@@ -1858,44 +1896,6 @@
         },
         "order_id": {
           "_text": "225015861"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "208672754"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1756187442"
-        },
-        "unix_timestamp": {
-          "_text": "1756785263"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Prehladny web\nSiroka ponuka\nDobre ceny\nRychle dorucenie"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225015717"
         }
       }
     ]
