@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Pozdrawiam"
         }
       },
@@ -103,14 +111,6 @@
         },
         "summary": {
           "_cdata": "Polecam."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam Wszystkim ."
         }
       }
     ]
