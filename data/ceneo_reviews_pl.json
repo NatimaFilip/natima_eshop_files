@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Szybka, bezproblemowa transakcja."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Jestem bardzo zadowolona"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Po raz pierwszy skorzystałam z tej strony, produkt różni sie od tego co kupiłam wcześniej na allegro , inne opakowanie ale mam nadzieje że zawartosc ta sama. Dziekuję"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko ok"
         }
       },
@@ -87,30 +111,6 @@
         },
         "summary": {
           "_cdata": "wszystko ok"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam,wszystko ok,napewno jeszcze nie raz skorzystam z zakupów."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam."
         }
       }
     ]
