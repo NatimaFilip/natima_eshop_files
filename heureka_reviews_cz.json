@@ -3,6 +3,79 @@
     "review": [
       {
         "rating_id": {
+          "_text": "877658318"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1762112271"
+        },
+        "unix_timestamp": {
+          "_text": "1762754734"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "široký výběr produktů \nedukační činnost \nvýhodná balení\nmenší kapsle pro snadnější polykání"
+        },
+        "summary": {
+          "_cdata": "Spolehlivý obchod"
+        },
+        "order_id": {
+          "_text": "125071781"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "877651514"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1762110781"
+        },
+        "unix_timestamp": {
+          "_text": "1762678751"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Vyhodu"
+        },
+        "order_id": {
+          "_text": "125071771"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "877286256"
         },
         "source": {
@@ -1820,82 +1893,6 @@
         },
         "order_id": {
           "_text": "125065264"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "872358831"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1760020013"
-        },
-        "unix_timestamp": {
-          "_text": "1760600271"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "dobrý"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125065197"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "871976161"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1759865475"
-        },
-        "unix_timestamp": {
-          "_text": "1760594675"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "rychlost dodání\nkomunikace"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125064610"
         }
       }
     ]
