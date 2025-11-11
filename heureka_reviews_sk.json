@@ -3,6 +3,38 @@
     "review": [
       {
         "rating_id": {
+          "_text": "212415203"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1761741901"
+        },
+        "unix_timestamp": {
+          "_text": "1762860034"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "3"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "cons": {
+          "_cdata": "Kurier tovar nedoručil a poslal späť"
+        },
+        "order_id": {
+          "_text": "225020732"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "212666149"
         },
         "source": {
@@ -1855,44 +1887,6 @@
         },
         "order_id": {
           "_text": "225017329"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "209672393"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1757777960"
-        },
-        "unix_timestamp": {
-          "_text": "1758362163"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Objednavka bola vybavena rychlo,produkty prisli v poriadku .Prijala by som,keby na listku,ktory je pridany ku kazdemu vyrobku bol popis,naco je dobry,v com nam pomoze ku zdraviu,na co sa pouziva."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu. Podrobnejší popis, na čo je výrobok dobrý a ako sa používa, nájdete pohodlne na našej webovej stránke. V prípade otázok sa môžete kedykoľvek obrátiť aj na našu zákaznícku podporu – radi Vám poradíme.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225017113"
         }
       }
     ]
