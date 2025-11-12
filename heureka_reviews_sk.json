@@ -29,6 +29,9 @@
         "cons": {
           "_cdata": "Kurier tovar nedoručil a poslal späť"
         },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu. Mrzí nás to — podľa záznamu Vás kuriér na adrese nezastihol, preto bola zásielka vrátená. Prosím, kontaktujte našu zákaznícku podporu, situáciu s Vami vyriešime k Vašej spokojnosti. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
         "order_id": {
           "_text": "225020732"
         }
@@ -67,6 +70,9 @@
         "cons": {
           "_cdata": "Žiadne"
         },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
         "order_id": {
           "_text": "225021065"
         }
@@ -92,6 +98,9 @@
         },
         "pros": {
           "_cdata": "Rýchle dodanie"
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojný s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
         },
         "order_id": {
           "_text": "225020991"
