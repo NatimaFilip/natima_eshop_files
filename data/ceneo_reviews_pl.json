@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Polecam tego sprzedawcę."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Skusiła mnie niższa cena niż w aptece i na pewno kupię ponownie bo produkt dobrze znam."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "W porządku!"
         }
       },
@@ -95,22 +111,6 @@
         },
         "summary": {
           "_cdata": "Wszystko ok"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Pozdrawiam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super"
         }
       }
     ]
