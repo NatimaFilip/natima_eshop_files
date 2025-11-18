@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "213268164"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1762844017"
+        },
+        "unix_timestamp": {
+          "_text": "1763444825"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "4.5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Bezproblemove"
+        },
+        "order_id": {
+          "_text": "225021781"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "212857670"
         },
         "source": {
@@ -1849,44 +1884,6 @@
         },
         "order_id": {
           "_text": "225017939"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "209782112"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1757951069"
-        },
-        "unix_timestamp": {
-          "_text": "1759212129"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "výborné šampony ."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225017272"
         }
       }
     ]
