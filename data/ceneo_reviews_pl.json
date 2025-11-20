@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Ok."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Realizacja zamówienia bardzo szybka, towar ładnie zapakowany"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Paczka szybko dostarczona, żadnych uszkodzeń"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Polecam"
         }
       },
@@ -95,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Wszystko sprawnie i szybko."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zakupy w sklepie to przyjemność."
         }
       }
     ]
