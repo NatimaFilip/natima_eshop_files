@@ -6,6 +6,38 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Polecam!"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Szybko sprawnie towar ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Ok."
         }
       },
@@ -87,38 +119,6 @@
         },
         "summary": {
           "_cdata": "Skusiła mnie niższa cena niż w aptece i na pewno kupię ponownie bo produkt dobrze znam."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "W porządku!"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo dobre ceny, szybka wysyłka, czego chcieć więcej."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam. Szybko sprawnie i rzeczowo"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko sprawnie i szybko."
         }
       }
     ]
