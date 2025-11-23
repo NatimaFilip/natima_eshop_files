@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Firma ok. Polecam."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Polecam"
         }
       },
@@ -103,22 +119,6 @@
         },
         "summary": {
           "_cdata": "Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam tego sprzedawcę."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Skusiła mnie niższa cena niż w aptece i na pewno kupię ponownie bo produkt dobrze znam."
         }
       }
     ]
