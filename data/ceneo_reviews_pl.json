@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Bez uwag"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Polecam. Brak problemów."
         }
       },
@@ -135,14 +143,6 @@
         },
         "summary": {
           "_cdata": "Wszystko ok"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam!"
         }
       }
     ]
