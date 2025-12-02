@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "214551308"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1764069618"
+        },
+        "unix_timestamp": {
+          "_text": "1764664881"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "4.5"
+        },
+        "pros": {
+          "_cdata": "Veľká spokojnosť, komunikácia, rýchlosť dodania, kvalitné produkty :)."
+        },
+        "order_id": {
+          "_text": "225023206"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "214431678"
         },
         "source": {
@@ -1855,44 +1890,6 @@
         },
         "order_id": {
           "_text": "225019420"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "210878098"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1759742511"
-        },
-        "unix_timestamp": {
-          "_text": "1760974519"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Mám dobré skúsenosti rád objednávam"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225018778"
         }
       }
     ]
