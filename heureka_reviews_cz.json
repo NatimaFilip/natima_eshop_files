@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "886330398"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1764597642"
+        },
+        "unix_timestamp": {
+          "_text": "1765181105"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Objednala jsem podruhé. Vše bylo v nejlepším pořádku."
+        },
+        "order_id": {
+          "_text": "125081174"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "885855603"
         },
         "source": {
@@ -1813,44 +1848,6 @@
         },
         "order_id": {
           "_text": "125074560"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "879823518"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1762853350"
-        },
-        "unix_timestamp": {
-          "_text": "1763449250"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Kupuji opakovaně a vždy jsem se vším spokojena."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125074661"
         }
       }
     ]
