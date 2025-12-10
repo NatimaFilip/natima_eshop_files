@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Szybko i sprawnie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "wszystko ok"
         }
       },
@@ -103,22 +111,6 @@
         },
         "summary": {
           "_cdata": "Super sklep wszystko sprawie załatwione, mogę polecić, Danielos z Torunia"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko extra"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super profesjonalna obsluga.Kurier bardzo sympatyczny"
         }
       }
     ]
