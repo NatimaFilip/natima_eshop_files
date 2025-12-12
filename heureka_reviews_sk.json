@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "215347980"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1764762311"
+        },
+        "unix_timestamp": {
+          "_text": "1765523542"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Výhoda je nakupovať u bas"
+        },
+        "order_id": {
+          "_text": "225023918"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "215436696"
         },
         "source": {
@@ -1855,44 +1890,6 @@
         },
         "order_id": {
           "_text": "225020158"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "211894219"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1761033964"
-        },
-        "unix_timestamp": {
-          "_text": "1761640039"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Objednavka bola velmi rychlo vybavená a doručená."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojná s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225020055"
         }
       }
     ]
