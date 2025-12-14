@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Polecam :)"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko przebiegło należycie."
         }
       },
@@ -103,22 +111,6 @@
         },
         "summary": {
           "_cdata": "szybka dostawa przystępna cena"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo dobry produkt, i mega szybka realizacja zamówienia. Polecam !"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Szybko i bezproblemowo!"
         }
       }
     ]
