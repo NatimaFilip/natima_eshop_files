@@ -3,6 +3,82 @@
     "review": [
       {
         "rating_id": {
+          "_text": "215820893"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1765198796"
+        },
+        "unix_timestamp": {
+          "_text": "1766240785"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Urýchlené vybavenie."
+        },
+        "summary": {
+          "_cdata": "Serióznosť a výborná komunikácia."
+        },
+        "order_id": {
+          "_text": "225024315"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "215999927"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1765317301"
+        },
+        "unix_timestamp": {
+          "_text": "1766218474"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchlosť dodania \nKvalita produktov \nCeny produktov \nSpracovanie eshopu"
+        },
+        "summary": {
+          "_cdata": "Tovar mi bol doručený za dva dni.Kvalita produktov je až moc dobrá na tú nízku cenu (za málo peňazí vela muziky). Som veľmi spokojný určite budem objednávať znovu."
+        },
+        "order_id": {
+          "_text": "225024510"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "215600022"
         },
         "source": {
@@ -1808,82 +1884,6 @@
         },
         "order_id": {
           "_text": "225020443"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "212120756"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1761325372"
-        },
-        "unix_timestamp": {
-          "_text": "1761894009"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Tovar mi bol doručeny v čas výborne zabaleny,s tovarom som spokojný."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225020351"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "211609641"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1760639966"
-        },
-        "unix_timestamp": {
-          "_text": "1761841397"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Spoľahlivosť, rýchlosť."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225019743"
         }
       }
     ]
