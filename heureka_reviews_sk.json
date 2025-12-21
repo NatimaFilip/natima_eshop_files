@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "216081675"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1765380400"
+        },
+        "unix_timestamp": {
+          "_text": "1766320410"
+        },
+        "total_rating": {
+          "_text": "3.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "4"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "slušný výber"
+        },
+        "cons": {
+          "_cdata": "ceny"
+        },
+        "order_id": {
+          "_text": "225024589"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "215820893"
         },
         "source": {
@@ -1846,44 +1884,6 @@
         },
         "order_id": {
           "_text": "225020486"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "212217238"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1761495595"
-        },
-        "unix_timestamp": {
-          "_text": "1762060419"
-        },
-        "total_rating": {
-          "_text": "4.5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "4.5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Kvalita tovaru splnila moje očakávania."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225020443"
         }
       }
     ]
