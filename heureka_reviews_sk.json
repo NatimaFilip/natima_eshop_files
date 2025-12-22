@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "216055656"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1765366011"
+        },
+        "unix_timestamp": {
+          "_text": "1766403656"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchle doručenie"
+        },
+        "summary": {
+          "_cdata": "VÝBORNÝ OBCHOD"
+        },
+        "order_id": {
+          "_text": "225024566"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "216155775"
         },
         "source": {
@@ -1840,44 +1878,6 @@
         },
         "order_id": {
           "_text": "225020654"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "212348294"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1761652992"
-        },
-        "unix_timestamp": {
-          "_text": "1762243566"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "4.5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "OK"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225020623"
         }
       }
     ]
