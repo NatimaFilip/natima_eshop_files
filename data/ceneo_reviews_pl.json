@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko w porządku z moim zamówieniem"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Oki. Polecam."
         }
       },
@@ -103,30 +111,6 @@
         },
         "summary": {
           "_cdata": "Polecam :)"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko przebiegło należycie."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "polecam!"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Profesjonalna robota. Zaraz złożę następne zamówienie."
         }
       }
     ]
