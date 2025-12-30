@@ -3,6 +3,79 @@
     "review": [
       {
         "rating_id": {
+          "_text": "892731447"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1766064901"
+        },
+        "unix_timestamp": {
+          "_text": "1766997855"
+        },
+        "total_rating": {
+          "_text": "4.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "4.5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlost komunikace."
+        },
+        "summary": {
+          "_cdata": "Žádné."
+        },
+        "order_id": {
+          "_text": "125087752"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "892307351"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1765964560"
+        },
+        "unix_timestamp": {
+          "_text": "1766997543"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Včera jsem doporučila Vaši firmu moji kamarádce,hořčík,na paměť a Omega 3,já jsem spokojena,vitamíny beru pravidelně.Jak dojdou zase si objednám."
+        },
+        "order_id": {
+          "_text": "125087306"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "891313312"
         },
         "source": {
@@ -1733,85 +1806,6 @@
         },
         "order_id": {
           "_text": "125078442"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "882989210"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1763747300"
-        },
-        "unix_timestamp": {
-          "_text": "1764323666"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Spokojenost"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125078363"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "882514817"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1763624352"
-        },
-        "unix_timestamp": {
-          "_text": "1764245244"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Vstricnost vasi zamestnankyni po telefonu.\nVyhoda telefonicke objednavky, protoze jsem starsi osoba."
-        },
-        "summary": {
-          "_cdata": "Vyhoda, jiz jsem doporucila znamym."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu. Vážíme si toho, že jste spokojená s naší komunikací. Naší prioritou je vždy poskytovat rychlou a profesionální zákaznickou podporu.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125077900"
         }
       }
     ]
