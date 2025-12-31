@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Jestem zadowolona z otrzymanego suplementu"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Bardzo Dobra Firma. Polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wygląda na to, że oferowane produkty są dobrej jakości. Chyba jeszcze coś zamówię w przyszłości."
         }
       },
@@ -87,22 +103,6 @@
         },
         "summary": {
           "_cdata": "Polecam realizacja 1 klasa"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Dostawa została zrealizowana bardzo szybko . Buteleczki z kroplami były super zapakowana . Fajne jest też to , że istnieją różne sposoby zapłaty .  Jeśli chodzi  zakup , to na pewno kupiłabym ponownie na natima ."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jestem zadowolona"
         }
       }
     ]
