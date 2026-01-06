@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko sprawnie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Wszystko sprawnie zostało dostarczone bez uszkodzenia przesyłki"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Tak polecam tego sprzedawcę ,sprawna obsługa  szybka dostawa, bez żadnych problemów. Lucyna R"
         }
       },
@@ -103,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Wszystko w porządku z moim zamówieniem"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Oki. Polecam."
         }
       }
     ]
