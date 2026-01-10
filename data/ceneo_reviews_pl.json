@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Bardzo dobry."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Polecam"
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "WlWszystko jest w porządku."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Obsługa na najwyższym poziomie.  Bardzo sprawnie zrealizowane zamowienie"
         }
       }
     ]
