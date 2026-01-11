@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Ten produkt spełnia moje oczekiwanie polecam wszystkim"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Bardzo dobry."
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Jestem zadowolona"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "WlWszystko jest w porządku."
         }
       }
     ]
