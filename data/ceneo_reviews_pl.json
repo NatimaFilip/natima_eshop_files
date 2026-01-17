@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Produkt zgodny z opisem."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Ciekawe produkty, szybka wysyłka, dobrze zapakowane."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Polecam"
         }
       },
@@ -87,30 +111,6 @@
         },
         "summary": {
           "_cdata": "Wszystko sprawnie zostało dostarczone bez uszkodzenia przesyłki"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Tak polecam tego sprzedawcę ,sprawna obsługa  szybka dostawa, bez żadnych problemów. Lucyna R"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo sprawnie ♥️"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko jest ok"
         }
       }
     ]
