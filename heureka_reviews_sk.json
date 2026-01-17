@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "218323197"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1768030826"
+        },
+        "unix_timestamp": {
+          "_text": "1768636260"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "myslim ze prvy raz som nakupoval"
+        },
+        "order_id": {
+          "_text": "226000873"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "218227086"
         },
         "source": {
@@ -1852,44 +1887,6 @@
         },
         "order_id": {
           "_text": "225022588"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "213812339"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1763374173"
-        },
-        "unix_timestamp": {
-          "_text": "1763975320"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "4.5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Tovar dodaný rýchlo, dobre zabalený"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojná s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225022480"
         }
       }
     ]
