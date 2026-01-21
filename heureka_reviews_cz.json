@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "897556884"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1768331847"
+        },
+        "unix_timestamp": {
+          "_text": "1768922365"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Nakupujem tu už niekoľko rokov. Obchod má prehľadné web stránky, kde je ľahko nájsť čo hľadáte. Rýchle odoslanie objednaného tovaru a žiadne potiaže s doručovaním. Rozhodne dobrý e-shop!"
+        },
+        "order_id": {
+          "_text": "126004124"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "896803609"
         },
         "source": {
@@ -1837,44 +1872,6 @@
         },
         "order_id": {
           "_text": "125087792"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "893366984"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1766338203"
-        },
-        "unix_timestamp": {
-          "_text": "1767269067"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Vše super, komunikace skvělá"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu. Vážíme si toho, že jste spokojená s naší komunikací. Naší prioritou je vždy poskytovat rychlou a profesionální zákaznickou podporu.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "125088400"
         }
       }
     ]
