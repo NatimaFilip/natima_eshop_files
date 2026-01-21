@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "218631440"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1768389172"
+        },
+        "unix_timestamp": {
+          "_text": "1768977395"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchlosť"
+        },
+        "order_id": {
+          "_text": "226001372"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "218544247"
         },
         "source": {
@@ -1825,44 +1860,6 @@
         },
         "order_id": {
           "_text": "225023371"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "214750396"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1764243721"
-        },
-        "unix_timestamp": {
-          "_text": "1764829634"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Spoľahlivý  obchod"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225023395"
         }
       }
     ]
