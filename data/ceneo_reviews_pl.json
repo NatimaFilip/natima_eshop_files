@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Zamówienie szybko dotarło. Polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Towar który otzymałem spełnia moje oczekiwania."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko ok 👍"
         }
       },
@@ -111,22 +127,6 @@
         },
         "summary": {
           "_cdata": "Ten produkt spełnia moje oczekiwanie polecam wszystkim"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo dobry."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
         }
       }
     ]
