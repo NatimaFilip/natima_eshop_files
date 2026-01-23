@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "218069931"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1767714049"
+        },
+        "unix_timestamp": {
+          "_text": "1769165211"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Všetko OK. Stránka prehľadná, komunikácia na úrovni, doručenie tiež a tovar kvalitný. Ďakujem"
+        },
+        "order_id": {
+          "_text": "226000464"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "218776588"
         },
         "source": {
@@ -1816,44 +1851,6 @@
         },
         "order_id": {
           "_text": "225023685"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "214954223"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1764439828"
-        },
-        "unix_timestamp": {
-          "_text": "1765023017"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "SERIJOZNOST\nRYCHLOST\nSPOLAHLIVOST"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225023556"
         }
       }
     ]
