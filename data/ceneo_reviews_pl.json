@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "jestem zadowolony"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "jak zwykle zadowolony"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Na razie testuję. Chyba pozytywnie."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Suplement otrzymalam szybko i bez problemu. Polecam"
         }
       },
@@ -119,22 +143,6 @@
         },
         "summary": {
           "_cdata": "Ciekawe produkty, szybka wysyłka, dobrze zapakowane."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
         }
       }
     ]
