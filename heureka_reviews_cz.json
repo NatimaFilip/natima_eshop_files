@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "900131580"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1769362507"
+        },
+        "unix_timestamp": {
+          "_text": "1769949782"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlé vyřízení"
+        },
+        "summary": {
+          "_cdata": "Mám dobré zkušenosti"
+        },
+        "order_id": {
+          "_text": "126008074"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "899908000"
         },
         "source": {
@@ -1828,44 +1866,6 @@
         },
         "order_id": {
           "_text": "126001886"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "896219912"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1767817081"
-        },
-        "unix_timestamp": {
-          "_text": "1768393539"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rychlost"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byl spokojený s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126001942"
         }
       }
     ]
