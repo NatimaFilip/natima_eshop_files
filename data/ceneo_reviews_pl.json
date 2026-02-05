@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Czytelny przegląd farmaceutyków, które oferujecie wg. potrzeb klienta"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Bardzo szybka wysyłka, towar zgodny z zamówieniem, jestem bardzo zadowolona"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Wszystko przebiegło bez problemu"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Zakup OK"
         }
       },
@@ -103,30 +127,6 @@
         },
         "summary": {
           "_cdata": "Wszystko ok"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "SUPER"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zamówienie szybko dotarło. Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Towar który otzymałem spełnia moje oczekiwania."
         }
       }
     ]
