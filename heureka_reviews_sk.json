@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "219885500"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1770068055"
+        },
+        "unix_timestamp": {
+          "_text": "1770622668"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "4"
+        },
+        "transport_quality": {
+          "_text": "4.5"
+        },
+        "communication": {
+          "_text": "4.5"
+        },
+        "summary": {
+          "_cdata": "Super obchod rychle dodanie"
+        },
+        "order_id": {
+          "_text": "226003310"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "219792354"
         },
         "source": {
@@ -1822,47 +1857,6 @@
         },
         "order_id": {
           "_text": "225025392"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "217328774"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1766421358"
-        },
-        "unix_timestamp": {
-          "_text": "1767343562"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "4.5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "dobre ceny\nrychle zaslanie"
-        },
-        "summary": {
-          "_cdata": "vyborny a spolahlivy obchod,kvalita za dobre ceny"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225025699"
         }
       }
     ]
