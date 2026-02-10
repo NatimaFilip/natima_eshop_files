@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Zamówione suplementy dotarły szybko,atrakcyjna cena produktów"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Bardzo szybko dostałam zamówione suplementy,w dobrej cenie polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Jestem zadowolona"
         }
       },
@@ -111,14 +127,6 @@
         },
         "summary": {
           "_cdata": "Na razie testuję. Chyba pozytywnie."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Suplement otrzymalam szybko i bez problemu. Polecam"
         }
       }
     ]
