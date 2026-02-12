@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Szybko i profesjonalnie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Super"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Zamówione suplementy dotarły szybko,atrakcyjna cena produktów"
         }
       },
@@ -95,38 +111,6 @@
         },
         "summary": {
           "_cdata": "Wszystko super, szybka dostawa, produkt zgodny z oczekiwaniami. Polecam."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Fantastyczni!"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "jestem zadowolony"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "jak zwykle zadowolony"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Na razie testuję. Chyba pozytywnie."
         }
       }
     ]
