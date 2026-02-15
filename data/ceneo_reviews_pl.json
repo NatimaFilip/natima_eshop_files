@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Poprawnie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Preparat wysokiej jakości Będę korzystał z innych preparatów Firmy"
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Zakup OK"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "szybka realizacja zamówienia, konkurencyjne ceny"
         }
       }
     ]
