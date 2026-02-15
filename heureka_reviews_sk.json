@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "220224142"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1770556147"
+        },
+        "unix_timestamp": {
+          "_text": "1771137152"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchla  spatná  vazba  k  oznámením   objiednávk"
+        },
+        "order_id": {
+          "_text": "226003808"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "220178565"
         },
         "source": {
@@ -1849,47 +1884,6 @@
         },
         "order_id": {
           "_text": "226000139"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "217822358"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1767361752"
-        },
-        "unix_timestamp": {
-          "_text": "1768125243"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Dobrý výber \nPonuka nezahlcuje pozornosť\nŠiroká škála cien"
-        },
-        "summary": {
-          "_cdata": "Obchodnje prehľadnýc má jasné zameranie a v rámci daného sortimentu bohatý výber podľa ceny. Výber je teda jednoduchý. Komunkácia a ochota obchodu výborná. Tovar bol doručený rýchlo, balenie kvalitné. Výrobky samotné sú nádherné a vo vysokej kvalite, robia nám radosť."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226000099"
         }
       }
     ]
