@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Poprawnie"
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Wszystko przebiegło bez problemu"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zakup OK"
         }
       }
     ]
