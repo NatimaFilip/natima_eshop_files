@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Git"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "wszystko ok"
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Bardzo szybka wysyłka, towar zgodny z zamówieniem, jestem bardzo zadowolona"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko przebiegło bez problemu"
         }
       }
     ]
