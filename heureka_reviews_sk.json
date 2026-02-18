@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "220356230"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1770710301"
+        },
+        "unix_timestamp": {
+          "_text": "1771351556"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchle doručenie, super ptoduktu"
+        },
+        "order_id": {
+          "_text": "226003994"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "220284906"
         },
         "source": {
@@ -1840,44 +1875,6 @@
         },
         "order_id": {
           "_text": "226000631"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "218084521"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1767727641"
-        },
-        "unix_timestamp": {
-          "_text": "1768376880"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rychle dorucenie\nKvalitne vitaminy\nSiroka ponuka\nPrijatelna cena"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojný s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226000494"
         }
       }
     ]
