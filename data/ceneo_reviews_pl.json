@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko na wysokim poziomie. Polecam !"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Nic"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Git"
         }
       },
@@ -103,22 +119,6 @@
         },
         "summary": {
           "_cdata": "Super"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Czytelny przegląd farmaceutyków, które oferujecie wg. potrzeb klienta"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo szybka wysyłka, towar zgodny z zamówieniem, jestem bardzo zadowolona"
         }
       }
     ]
