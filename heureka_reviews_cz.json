@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "904934276"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1771338798"
+        },
+        "unix_timestamp": {
+          "_text": "1771917641"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "S Natimou už jsem se setkala v nedávné minulosti, myslím, že její produkty mi pomohly. Tentokrát jsem zde opět nakoupila, co po mém soudu potřebuji, takže doufám, že to bude obdobné a pomohou mi."
+        },
+        "order_id": {
+          "_text": "126015880"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "904486039"
         },
         "source": {
@@ -1804,44 +1839,6 @@
         },
         "order_id": {
           "_text": "126009181"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "900417123"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1769460697"
-        },
-        "unix_timestamp": {
-          "_text": "1770177987"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Spolehlivé a rychlé dodání."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byla spokojená s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126008698"
         }
       }
     ]
