@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "220997653"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1771501972"
+        },
+        "unix_timestamp": {
+          "_text": "1772123936"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Эти фильтры для воды, я нашла только здесь. Мне нравится именно  бренда Aqvafor. Заказываю уже в третий раз. Хорошие цены, есть небольшая скидка, всё очень быстро, просто и понятно. Магазин рекомендую!"
+        },
+        "order_id": {
+          "_text": "226004924"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "221013597"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1771518854"
+        },
+        "unix_timestamp": {
+          "_text": "1772113807"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "rýchlosť  dodávky\nkvalitný tovar"
+        },
+        "order_id": {
+          "_text": "226004960"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "220866094"
         },
         "source": {
@@ -1832,82 +1902,6 @@
         },
         "order_id": {
           "_text": "226000992"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "218382765"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1768119762"
-        },
-        "unix_timestamp": {
-          "_text": "1768719649"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Spoľahlivosť. Ústretovosť."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226000957"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "218323197"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1768030826"
-        },
-        "unix_timestamp": {
-          "_text": "1768636260"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "myslim ze prvy raz som nakupoval"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226000873"
         }
       }
     ]
