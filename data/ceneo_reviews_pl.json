@@ -6,7 +6,23 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Szybka dostawa , kompetentna obsługa"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Dziękuję jeszcze nie raz zamówię"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Realizacja Zamora bardzo szybko I precyzyjnie.."
         }
       },
       {
@@ -103,22 +119,6 @@
         },
         "summary": {
           "_cdata": "Git"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "wszystko ok"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Poprawnie"
         }
       }
     ]
