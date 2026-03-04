@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "221314021"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1771943330"
+        },
+        "unix_timestamp": {
+          "_text": "1772563474"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Široký sortiment \nKvalitný produkt"
+        },
+        "order_id": {
+          "_text": "226005401"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "221237726"
         },
         "source": {
@@ -1831,41 +1866,6 @@
         },
         "order_id": {
           "_text": "226000464"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "218776588"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1768552757"
-        },
-        "unix_timestamp": {
-          "_text": "1769151932"
-        },
-        "total_rating": {
-          "_text": "4"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "1"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Vyborne ceny dobra ponuka nevyhoda dlha cakacia doba"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu. Mrzí nás dlhšia čakacia doba - balíček sa odoslal neskôr, pretože sme približne 7 dní čakali na úhradu objednávky bankovým prevodom. Hneď po prijatí platby sme zásielku odoslali. Ďakujeme za pochopenie.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226001587"
         }
       }
     ]
