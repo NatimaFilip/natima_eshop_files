@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Dobre produkty. Skuteczne."
         }
       },
@@ -119,14 +127,6 @@
         },
         "summary": {
           "_cdata": "Super sprzedawca"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Szybka dostawa , kompetentna obsługa"
         }
       }
     ]
