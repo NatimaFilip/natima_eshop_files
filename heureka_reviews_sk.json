@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "221611733"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1772390074"
+        },
+        "unix_timestamp": {
+          "_text": "1772994569"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Rýchlosť dodania"
+        },
+        "order_id": {
+          "_text": "226005857"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "221609642"
         },
         "source": {
@@ -224,35 +259,6 @@
         },
         "order_id": {
           "_text": "226005401"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "221237726"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1771852248"
-        },
-        "unix_timestamp": {
-          "_text": "1772458795"
-        },
-        "total_rating": {
-          "_text": "0.5"
-        },
-        "recommends": {
-          "_text": "0"
-        },
-        "communication": {
-          "_text": "1"
-        },
-        "summary": {
-          "_cdata": "Ne objednavajte od nich vobec nic no lebo oni fúrt cely zivot iba len a len vylucne zavadzaju a aj zaroven velmi velmi vela klamu"
-        },
-        "order_id": {
-          "_text": "226005285"
         }
       },
       {
