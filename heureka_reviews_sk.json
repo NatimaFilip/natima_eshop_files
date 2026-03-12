@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "221855674"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1772701151"
+        },
+        "unix_timestamp": {
+          "_text": "1773315974"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Neuveriteľne rýchlo vybavená objednávka, tovar doručený v dohodnutý deň, neporušený obal. Bola som príjemne prekvapená."
+        },
+        "cons": {
+          "_cdata": "Zatiaľ žiadnu nevidím."
+        },
+        "order_id": {
+          "_text": "226006177"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "221820907"
         },
         "source": {
@@ -1864,44 +1902,6 @@
         },
         "order_id": {
           "_text": "226002329"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "218966973"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1768801084"
-        },
-        "unix_timestamp": {
-          "_text": "1769707994"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Nakupujem pravidelne... ďakujem som spokojná"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226001826"
         }
       }
     ]
