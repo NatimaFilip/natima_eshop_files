@@ -3,6 +3,79 @@
     "review": [
       {
         "rating_id": {
+          "_text": "222157773"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1773095679"
+        },
+        "unix_timestamp": {
+          "_text": "1773683857"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchle vybavenie objednávky a odoslanie\nRýchle doručenie \nSkvele webové stránky!!\nKrásne prehľadne zoradené popísané dopodrobna\nDoplnky sú super, ľahko stráviteľné neostáva \"ťažký\" pocit v žalúdku, cítim zmenu k lepšiemu pri užívaní \nSuper cena za takúto kvalitu v porovnaní s inymi obchodmi"
+        },
+        "summary": {
+          "_cdata": "Som nadmieru spokojná! Robila som si osobne prehľad rôznych druhov doplnkov všade možne na webe. Objednávala som aj z Ameriky doplnky ale som veľmi rada že som narazila na tento obchod naozaj super spokojnosť. Veľmi som prekvapená aj stránkami je vidno že si dajú záležať. Samotné produkty beriem možno týždeň tuším a cítim fyzicky zmenu. Veľké plus že nie sú ťažké na žalúdok aj keď ich beriem viac. Veľká vďaka celému tímu. Určite ďalej objednávam."
+        },
+        "order_id": {
+          "_text": "226006707"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "222077641"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1773008186"
+        },
+        "unix_timestamp": {
+          "_text": "1773678420"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Spokojnosť,spolahlivosť,kvalita."
+        },
+        "order_id": {
+          "_text": "226006552"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "222025676"
         },
         "source": {
@@ -303,6 +376,9 @@
         },
         "cons": {
           "_cdata": "Objednal som si 5 balení Policosanol 20 mg, ale prišli mi 2 balenia s expiráciou 06/2027 a 3 balenia s expiráciou 05/2026, čo je identická expirácia, ako u objednávky, ktorú som objednával predtým. Poprosím o informáciu, dokedy je to bezpečné užívať po dátume expirácie a či vôbec. Som sklamaný, a neviem či ide o dopredaj starej šarže, alebo nedôslednú kontrolu pri expedícii."
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu spätnú väzbu. Mrzí nás Vaša nepríjemná skúsenosť a sklamanie z doručenej objednávky. Kontaktovali sme Vás s cieľom túto situáciu vyriešiť, no zatiaľ sa nám to nepodarilo. Prosíme, ozvite sa nám, aby sme mohli celú záležitosť doriešiť k Vašej spokojnosti.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
         },
         "order_id": {
           "_text": "226006050"
@@ -1826,85 +1902,6 @@
         },
         "order_id": {
           "_text": "226003126"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "219719344"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1769793168"
-        },
-        "unix_timestamp": {
-          "_text": "1770389988"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Prišlo čo som chcel, a rýchlo, vďaka"
-        },
-        "summary": {
-          "_cdata": "Ako som už písal vyššie, spokojnosť"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226003016"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "219658415"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1769691438"
-        },
-        "unix_timestamp": {
-          "_text": "1770286095"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bezproblémové rýchle dodanie"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojná s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226002907"
         }
       }
     ]
