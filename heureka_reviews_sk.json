@@ -573,47 +573,6 @@
       },
       {
         "rating_id": {
-          "_text": "221751768"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1772562265"
-        },
-        "unix_timestamp": {
-          "_text": "1773222918"
-        },
-        "total_rating": {
-          "_text": "3"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "2.5"
-        },
-        "pros": {
-          "_cdata": "Spoľahlivosť dodania, ale ..."
-        },
-        "cons": {
-          "_cdata": "Objednal som si 5 balení Policosanol 20 mg, ale prišli mi 2 balenia s expiráciou 06/2027 a 3 balenia s expiráciou 05/2026, čo je identická expirácia, ako u objednávky, ktorú som objednával predtým. Poprosím o informáciu, dokedy je to bezpečné užívať po dátume expirácie a či vôbec. Som sklamaný, a neviem či ide o dopredaj starej šarže, alebo nedôslednú kontrolu pri expedícii."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu spätnú väzbu. Mrzí nás Vaša nepríjemná skúsenosť a sklamanie z doručenej objednávky. Kontaktovali sme Vás s cieľom túto situáciu vyriešiť, no zatiaľ sa nám to nepodarilo. Prosíme, ozvite sa nám, aby sme mohli celú záležitosť doriešiť k Vašej spokojnosti.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226006050"
-        }
-      },
-      {
-        "rating_id": {
           "_text": "221725875"
         },
         "source": {
@@ -1896,6 +1855,44 @@
         },
         "order_id": {
           "_text": "226003617"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "220002761"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1770223991"
+        },
+        "unix_timestamp": {
+          "_text": "1770801649"
+        },
+        "total_rating": {
+          "_text": "4.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "4.5"
+        },
+        "transport_quality": {
+          "_text": "4.5"
+        },
+        "communication": {
+          "_text": "4.5"
+        },
+        "summary": {
+          "_cdata": "Spoľahlivosť"
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
+        "order_id": {
+          "_text": "226003484"
         }
       }
     ]
