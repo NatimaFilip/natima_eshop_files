@@ -1,63 +1,22 @@
 {
   "spreadsheetId": "1kE3gWN9oU5_tLTDs9E9XTqdGJy_hIBJvGOr_HqrEhzA",
   "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1kE3gWN9oU5_tLTDs9E9XTqdGJy_hIBJvGOr_HqrEhzA",
-  "generatedAt": "2026-03-26T07:37:37.469Z",
+  "generatedAt": "2026-03-26T08:03:12.019Z",
   "sheets": {
     "grafik": {
-      "sheetName": "Grafik",
-      "rowCount": 5,
-      "columns": [
-        "Název pozice",
-        "Grafik"
-      ],
-      "data": [
-        {
-          "Název pozice": "Typ úvazku",
-          "Grafik": "HPP / IČO"
-        },
-        {
-          "Název pozice": "Náplň práce",
-          "Grafik": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra nisl nisi, sed sodales urna eleifend ac. Pellentesque porta erat eget nibh lobortis, venenatis ullamcorper odio ultricies. Mauris diam felis, sollicitudin a tortor vel, varius tincidunt nisl. Donec odio urna, dignissim at ipsum non, luctus auctor turpis. Aliquam maximus velit at hendrerit finibus. Vestibulum faucibus ullamcorper purus pretium ornare. Aenean feugiat lectus urna, ut pulvinar sapien varius non. Phasellus consectetur sit amet nisi eu gravida. Praesent sagittis ex eget lacus rhoncus pharetra."
-        },
-        {
-          "Název pozice": "Požadavky",
-          "Grafik": "Praxe v grafice; Pokročilá znalost Adobe Photoshop a Illustrator; Samostatnost; Lorem ipsum"
-        },
-        {
-          "Název pozice": "Platové ohodnocení",
-          "Grafik": 100000
-        },
-        {
-          "Název pozice": "Délka úvazku",
-          "Grafik": "Rok a poté na neurčito"
-        }
-      ]
+      "Název pozice": "Grafik",
+      "Typ úvazku": "HPP / IČO",
+      "Náplň práce": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra nisl nisi, sed sodales urna eleifend ac. Pellentesque porta erat eget nibh lobortis, venenatis ullamcorper odio ultricies. Mauris diam felis, sollicitudin a tortor vel, varius tincidunt nisl. Donec odio urna, dignissim at ipsum non, luctus auctor turpis. Aliquam maximus velit at hendrerit finibus. Vestibulum faucibus ullamcorper purus pretium ornare. Aenean feugiat lectus urna, ut pulvinar sapien varius non. Phasellus consectetur sit amet nisi eu gravida. Praesent sagittis ex eget lacus rhoncus pharetra.",
+      "Požadavky": "Praxe v grafice; Pokročilá znalost Adobe Photoshop a Illustrator; Samostatnost; Lorem ipsum",
+      "Platové ohodnocení": 100000,
+      "Délka úvazku": "Rok a poté na neurčito"
     },
     "skladnk": {
-      "sheetName": "Skladník",
-      "rowCount": 4,
-      "columns": [
-        "Název pozice",
-        "Skladník"
-      ],
-      "data": [
-        {
-          "Název pozice": "Typ úvazku",
-          "Skladník": "Brigáda"
-        },
-        {
-          "Název pozice": "Náplň práce",
-          "Skladník": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra nisl nisi, sed sodales urna eleifend ac. Pellentesque porta erat eget nibh lobortis, venenatis ullamcorper odio ultricies. Mauris diam felis, sollicitudin a tortor vel, varius tincidunt nisl. Donec odio urna, dignissim at ipsum non, luctus auctor turpis. Aliquam maximus velit at hendrerit finibus. Vestibulum faucibus ullamcorper purus pretium ornare. Aenean feugiat lectus urna, ut pulvinar sapien varius non. Phasellus consectetur sit amet nisi eu gravida. Praesent sagittis ex eget lacus rhoncus pharetra."
-        },
-        {
-          "Název pozice": "Požadavky",
-          "Skladník": "Minimálně středoškolské vzdělání; 18 let; samostatnost"
-        },
-        {
-          "Název pozice": "Platové ohodnocení",
-          "Skladník": 50000
-        }
-      ]
+      "Název pozice": "Skladník",
+      "Typ úvazku": "Brigáda",
+      "Náplň práce": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra nisl nisi, sed sodales urna eleifend ac. Pellentesque porta erat eget nibh lobortis, venenatis ullamcorper odio ultricies. Mauris diam felis, sollicitudin a tortor vel, varius tincidunt nisl. Donec odio urna, dignissim at ipsum non, luctus auctor turpis. Aliquam maximus velit at hendrerit finibus. Vestibulum faucibus ullamcorper purus pretium ornare. Aenean feugiat lectus urna, ut pulvinar sapien varius non. Phasellus consectetur sit amet nisi eu gravida. Praesent sagittis ex eget lacus rhoncus pharetra.",
+      "Požadavky": "Minimálně středoškolské vzdělání; 18 let; samostatnost",
+      "Platové ohodnocení": 50000
     }
   }
 }
