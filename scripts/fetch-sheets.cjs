@@ -80,9 +80,9 @@ async function main() {
     console.log(`  ${name} → "${key}": ${rows.length} rows, ${(raw[0] || []).length} cols`);
   }
 
-  const outPath = path.join(DATA_DIR, "sheets.json");
+  const outPath = path.join(DATA_DIR, "kariera.json");
   fs.writeFileSync(outPath, JSON.stringify(combined, null, 2));
-  console.log(`\nSaved to data/sheets.json`);
+  console.log(`\nSaved to data/kariera.json`);
 
   fs.unlinkSync(TEMP_FILE);
   console.log("Done!");
