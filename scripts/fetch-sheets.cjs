@@ -56,7 +56,6 @@ async function main() {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }
 
-  // Build one combined object
   const combined = {
     spreadsheetId: SPREADSHEET_ID,
     spreadsheetUrl: `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}`,
@@ -66,23 +65,44 @@ async function main() {
 
   for (const name of sheetNames) {
     const sheet = workbook.Sheets[name];
-    const rows = XLSX.utils.sheet_to_json(sheet, { defval: "" });
     const raw = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: "" });
+
+    if (raw.length === 0) continue;
+
     const key = sanitize(name);
 
-    combined.sheets[key] = {
-      sheetName: name,
-      rowCount: rows.length,
-      columns: raw.length > 0 ? raw[0] : [],
-      data: rows,
-    };
+    // Row 0 = headers: ["Název pozice", "Grafik"]
+    // The first header is the label column, the rest are value columns
+    const headers = raw[0];
+    const valueColumns = headers.slice(1); // e.g. ["Grafik"]
 
-    console.log(`  ${name} → "${key}": ${rows.length} rows, ${(raw[0] || []).length} cols`);
+    // For each value column, build a flat object from the rows
+    // Row 1+: ["Typ úvazku", "HPP / IČO"] → { "Typ úvazku": "HPP / IČO" }
+    for (const [colIndex, colName] of valueColumns.entries()) {
+      const colKey = sanitize(colName);
+      const obj = {};
+
+      // First row header becomes "Název pozice": "Grafik"
+      obj[headers[0]] = colName;
+
+      // Remaining rows become key-value pairs
+      for (let r = 1; r < raw.length; r++) {
+        const label = raw[r][0];
+        const value = raw[r][colIndex + 1];
+        if (label !== "") {
+          obj[label] = value;
+        }
+      }
+
+      combined.sheets[colKey] = obj;
+    }
+
+    console.log(`  ${name} → ${valueColumns.length} position(s): ${valueColumns.join(", ")}`);
   }
 
   const outPath = path.join(DATA_DIR, "kariera.json");
   fs.writeFileSync(outPath, JSON.stringify(combined, null, 2));
-  console.log(`\nSaved to data/kariera.json`);
+  console.log(`\nSaved to data/sheets.json`);
 
   fs.unlinkSync(TEMP_FILE);
   console.log("Done!");
