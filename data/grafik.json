@@ -1,0 +1,47 @@
+{
+  "sheetName": "Grafik",
+  "generatedAt": "2026-03-26T07:15:19.253Z",
+  "rowCount": 9,
+  "columns": [
+    "Název pozice",
+    "Grafik"
+  ],
+  "data": [
+    {
+      "Název pozice": "Typ úvazku",
+      "Grafik": "HPP / IČO"
+    },
+    {
+      "Název pozice": "Náplň práce",
+      "Grafik": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra nisl nisi, sed sodales urna eleifend ac. Pellentesque porta erat eget nibh lobortis, venenatis ullamcorper odio ultricies. Mauris diam felis, sollicitudin a tortor vel, varius tincidunt nisl. Donec odio urna, dignissim at ipsum non, luctus auctor turpis. Aliquam maximus velit at hendrerit finibus. Vestibulum faucibus ullamcorper purus pretium ornare. Aenean feugiat lectus urna, ut pulvinar sapien varius non. Phasellus consectetur sit amet nisi eu gravida. Praesent sagittis ex eget lacus rhoncus pharetra."
+    },
+    {
+      "Název pozice": "Požadavky",
+      "Grafik": "Praxe v grafice"
+    },
+    {
+      "Název pozice": "",
+      "Grafik": "Pokročilá znalost Adobe Photoshop a Illustrator"
+    },
+    {
+      "Název pozice": "",
+      "Grafik": "Samostatnost"
+    },
+    {
+      "Název pozice": "",
+      "Grafik": "Lorem"
+    },
+    {
+      "Název pozice": "",
+      "Grafik": "Impsum"
+    },
+    {
+      "Název pozice": "Platové ohodnocení",
+      "Grafik": 100000
+    },
+    {
+      "Název pozice": "Délka úvazku",
+      "Grafik": "Rok a poté na neurčito"
+    }
+  ]
+}

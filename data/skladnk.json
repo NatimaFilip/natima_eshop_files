@@ -1,0 +1,43 @@
+{
+  "sheetName": "Skladník",
+  "generatedAt": "2026-03-26T07:15:19.257Z",
+  "rowCount": 8,
+  "columns": [
+    "Název pozice",
+    "Skladník"
+  ],
+  "data": [
+    {
+      "Název pozice": "Typ úvazku",
+      "Skladník": "Brigáda"
+    },
+    {
+      "Název pozice": "Náplň práce",
+      "Skladník": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra nisl nisi, sed sodales urna eleifend ac. Pellentesque porta erat eget nibh lobortis, venenatis ullamcorper odio ultricies. Mauris diam felis, sollicitudin a tortor vel, varius tincidunt nisl. Donec odio urna, dignissim at ipsum non, luctus auctor turpis. Aliquam maximus velit at hendrerit finibus. Vestibulum faucibus ullamcorper purus pretium ornare. Aenean feugiat lectus urna, ut pulvinar sapien varius non. Phasellus consectetur sit amet nisi eu gravida. Praesent sagittis ex eget lacus rhoncus pharetra."
+    },
+    {
+      "Název pozice": "Požadavky",
+      "Skladník": "Minimálně středoškolské vzdělání"
+    },
+    {
+      "Název pozice": "",
+      "Skladník": "18 let"
+    },
+    {
+      "Název pozice": "",
+      "Skladník": "Samostatnost"
+    },
+    {
+      "Název pozice": "",
+      "Skladník": "Lorem"
+    },
+    {
+      "Název pozice": "",
+      "Skladník": "Impsum"
+    },
+    {
+      "Název pozice": "Platové ohodnocení",
+      "Skladník": 50000
+    }
+  ]
+}

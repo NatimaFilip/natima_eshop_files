@@ -1,0 +1,23 @@
+{
+  "spreadsheetId": "1kE3gWN9oU5_tLTDs9E9XTqdGJy_hIBJvGOr_HqrEhzA",
+  "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1kE3gWN9oU5_tLTDs9E9XTqdGJy_hIBJvGOr_HqrEhzA",
+  "generatedAt": "2026-03-26T07:15:19.258Z",
+  "sheets": {
+    "Grafik": {
+      "file": "grafik.json",
+      "rows": 9,
+      "columns": [
+        "Název pozice",
+        "Grafik"
+      ]
+    },
+    "Skladník": {
+      "file": "skladnk.json",
+      "rows": 8,
+      "columns": [
+        "Název pozice",
+        "Skladník"
+      ]
+    }
+  }
+}
