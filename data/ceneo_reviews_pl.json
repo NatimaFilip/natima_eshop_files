@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Szybką realizacja zamówienia."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko było szybko"
         }
       },
@@ -135,14 +143,6 @@
         },
         "summary": {
           "_cdata": "Zamówienie zrealizowane bardzo szybko,polecam ten sklep"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jestem zadowolona"
         }
       }
     ]
