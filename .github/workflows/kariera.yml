@@ -32,7 +32,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: scripts
 
       - name: Fetch Google Sheets and generate JSON
         run: node scripts/fetch-sheets.js
