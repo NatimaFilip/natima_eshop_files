@@ -34,7 +34,7 @@ jobs:
         run: npm install
 
       - name: Fetch Google Sheets and generate JSON
-        run: node scripts/fetch-sheets.js
+        run: node scripts/fetch-sheets.cjs
         env:
           SPREADSHEET_ID: ${{ vars.SPREADSHEET_ID || '1kE3gWN9oU5_tLTDs9E9XTqdGJy_hIBJvGOr_HqrEhzA' }}
 
