@@ -7,15 +7,7 @@
 		"scrape": "node scripts/scrape-ceneo-reviews.cjs"
 	},
 	"dependencies": {
-		"playwright": "^1.47.2"
+		"playwright": "^1.47.2",
+		"xlsx": "^0.18.5"
 	}
-}
-
-{
-  "name": "google-sheets-sync",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "xlsx": "^0.18.5"
-  }
 }
