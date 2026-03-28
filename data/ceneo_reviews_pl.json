@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Superowy chłopak"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko bardzo dobrze."
         }
       },
@@ -119,22 +127,6 @@
         },
         "summary": {
           "_cdata": "Szybka wysyłka"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zakup przebiegł bardzo sprawnie. Polecam."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko ok."
         }
       }
     ]
