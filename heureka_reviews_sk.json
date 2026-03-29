@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "222951751"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1774110554"
+        },
+        "unix_timestamp": {
+          "_text": "1774725620"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "vitamíny dorazili do cieľa"
+        },
+        "order_id": {
+          "_text": "226007923"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "222936913"
         },
         "source": {
@@ -1858,38 +1893,6 @@
         },
         "order_id": {
           "_text": "226004291"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "220526742"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1770896544"
-        },
-        "unix_timestamp": {
-          "_text": "1771501399"
-        },
-        "total_rating": {
-          "_text": "0.5"
-        },
-        "recommends": {
-          "_text": "0"
-        },
-        "delivery_time": {
-          "_text": "0.5"
-        },
-        "communication": {
-          "_text": "0.5"
-        },
-        "summary": {
-          "_cdata": "Neviem zhodnotiť. Tovar mi nebol doručený."
-        },
-        "order_id": {
-          "_text": "226004246"
         }
       }
     ]
