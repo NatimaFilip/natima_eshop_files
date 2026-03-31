@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "223126019"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1774342132"
+        },
+        "unix_timestamp": {
+          "_text": "1774950760"
+        },
+        "total_rating": {
+          "_text": "3.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "4.5"
+        },
+        "communication": {
+          "_text": "4.5"
+        },
+        "pros": {
+          "_cdata": "spolahlivost"
+        },
+        "order_id": {
+          "_text": "226008220"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "223057276"
         },
         "source": {
@@ -1834,41 +1869,6 @@
         },
         "order_id": {
           "_text": "226005049"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "220997653"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1771501972"
-        },
-        "unix_timestamp": {
-          "_text": "1772123936"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Эти фильтры для воды, я нашла только здесь. Мне нравится именно  бренда Aqvafor. Заказываю уже в третий раз. Хорошие цены, есть небольшая скидка, всё очень быстро, просто и понятно. Магазин рекомендую!"
-        },
-        "order_id": {
-          "_text": "226004924"
         }
       }
     ]
