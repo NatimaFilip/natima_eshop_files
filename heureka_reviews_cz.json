@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "914283715"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1775224702"
+        },
+        "unix_timestamp": {
+          "_text": "1775824450"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Rychlost, spolehlovost"
+        },
+        "order_id": {
+          "_text": "126029425"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "914177369"
         },
         "source": {
@@ -1888,44 +1923,6 @@
         },
         "order_id": {
           "_text": "126021766"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "908760005"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1772988769"
-        },
-        "unix_timestamp": {
-          "_text": "1773566521"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Opakovaně zde nakupuji, velký výběr, bleskové dodání, skvělé ceny a dáreček potěší.Děkuji a doporučuji."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojená s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126021522"
         }
       }
     ]
