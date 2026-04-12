@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko wg opisu"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko zgodnie z opisem."
         }
       },
@@ -103,22 +119,6 @@
         },
         "summary": {
           "_cdata": "Sprawnie i bezproblemowo"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Dobra cena, a dzieci chętnie to przyjmują"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zakup przejrzysty , szybki, sprawny, polecam"
         }
       }
     ]
