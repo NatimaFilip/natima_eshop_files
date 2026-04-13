@@ -1,0 +1,127 @@
+name: Generate Natios Reviews CZ
+
+on:
+  schedule:
+    # 11 PM Prague time (CET=UTC+1, CEST=UTC+2)
+    # Run at both possible UTC offsets; the first step filters to exact Prague time
+    - cron: '0 21 * * *'
+    - cron: '0 22 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-reviews:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if it's 23:00 Prague time
+        id: tz_check
+        run: |
+          PRAGUE_HOUR=$(TZ="Europe/Prague" date +%H)
+          if [ "$PRAGUE_HOUR" != "23" ]; then
+            echo "Current Prague hour is $PRAGUE_HOUR, not 23. Skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "It's 23:00 in Prague. Running."
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.tz_check.outputs.skip == 'false' || github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.tz_check.outputs.skip == 'false' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        if: steps.tz_check.outputs.skip == 'false' || github.event_name == 'workflow_dispatch'
+        run: pip install requests
+
+      - name: Generate reviews XML
+        if: steps.tz_check.outputs.skip == 'false' || github.event_name == 'workflow_dispatch'
+        run: |
+          python3 << 'PYTHON_SCRIPT'
+          import requests
+          import xml.etree.ElementTree as ET
+          from collections import defaultdict
+          import os
+
+          SOURCE_URL = "https://doplnky.marketinghub.cz/google/files/xml/740472-69dcd4c73f5fa.xml"
+
+          print(f"Fetching source XML from {SOURCE_URL}...")
+          response = requests.get(SOURCE_URL, timeout=120)
+          response.raise_for_status()
+          print(f"Downloaded {len(response.content)} bytes")
+
+          root = ET.fromstring(response.content)
+
+          # Shoptet feed structure:
+          #   feed > reviews > review > ratings > overall  (rating value)
+          #   feed > reviews > review > products > product > product_ids > skus > sku
+          sku_ratings = defaultdict(list)
+
+          reviews_element = root.find("reviews")
+          if reviews_element is None:
+              raise RuntimeError("Could not find <reviews> element in source XML")
+
+          for review in reviews_element.findall("review"):
+              # Get rating from <ratings><overall>5</overall></ratings>
+              overall = review.find("ratings/overall")
+              if overall is None or not overall.text:
+                  continue
+              try:
+                  rating = float(overall.text.strip())
+              except ValueError:
+                  continue
+
+              # Get all SKUs linked to this review
+              for product in review.findall("products/product"):
+                  for sku_el in product.findall("product_ids/skus/sku"):
+                      if sku_el.text:
+                          sku = sku_el.text.strip()
+                          sku_ratings[sku].append(rating)
+
+          if not sku_ratings:
+              raise RuntimeError("No SKU/rating pairs found in source XML")
+
+          print(f"Found {sum(len(r) for r in sku_ratings.values())} reviews for {len(sku_ratings)} unique SKUs")
+
+          # Build output XML
+          shop = ET.Element("SHOP")
+
+          for sku in sorted(sku_ratings.keys()):
+              ratings = sku_ratings[sku]
+              avg_rating = round(sum(ratings) / len(ratings), 2)
+              total_reviews = len(ratings)
+
+              item = ET.SubElement(shop, "SHOPITEM")
+              ET.SubElement(item, "ITEM_ID").text = sku
+              ET.SubElement(item, "RATING_AVG").text = str(avg_rating)
+              ET.SubElement(item, "RATING_TOTAL").text = str(total_reviews)
+
+          # Write output
+          os.makedirs("Reviews", exist_ok=True)
+          output_path = "Reviews/Natios_reviews_cz.xml"
+
+          tree = ET.ElementTree(shop)
+          ET.indent(tree, space="   ")
+          tree.write(output_path, encoding="utf-8", xml_declaration=True)
+
+          print(f"Written {output_path} with {len(sku_ratings)} items")
+
+          # Print a few entries for verification
+          for sku in sorted(sku_ratings.keys())[:5]:
+              ratings = sku_ratings[sku]
+              avg = round(sum(ratings) / len(ratings), 2)
+              print(f"  SKU: {sku}, Avg: {avg}, Total: {len(ratings)}")
+          PYTHON_SCRIPT
+
+      - name: Commit and push
+        if: steps.tz_check.outputs.skip == 'false' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Reviews/Natios_reviews_cz.xml
+          git diff --cached --quiet && echo "No changes to commit" || (git commit -m "Update Natios_reviews_cz.xml $(date -u +%Y-%m-%d)" && git push)
