@@ -37,21 +37,42 @@ jobs:
 
       - name: Install dependencies
         if: steps.tz_check.outputs.skip == 'false' || github.event_name == 'workflow_dispatch'
-        run: pip install requests
+        run: pip install requests urllib3
 
       - name: Generate reviews XML
         if: steps.tz_check.outputs.skip == 'false' || github.event_name == 'workflow_dispatch'
         run: |
           python3 << 'PYTHON_SCRIPT'
           import requests
+          from requests.adapters import HTTPAdapter
+          from urllib3.util.retry import Retry
           import xml.etree.ElementTree as ET
           from collections import defaultdict
           import os
+          import time
 
           SOURCE_URL = "https://doplnky.marketinghub.cz/google/files/xml/740472-69dcd4c73f5fa.xml"
 
+          # Set up a session with automatic retries and backoff
+          session = requests.Session()
+          retry_strategy = Retry(
+              total=5,
+              backoff_factor=10,  # waits 10s, 20s, 40s, 80s, 160s between retries
+              status_forcelist=[429, 500, 502, 503, 504],
+              allowed_methods=["GET"],
+          )
+          adapter = HTTPAdapter(max_retries=retry_strategy)
+          session.mount("https://", adapter)
+          session.mount("http://", adapter)
+
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "application/xml, text/xml, */*",
+              "Accept-Language": "cs-CZ,cs;q=0.9,en;q=0.8",
+          }
+
           print(f"Fetching source XML from {SOURCE_URL}...")
-          response = requests.get(SOURCE_URL, timeout=120)
+          response = session.get(SOURCE_URL, headers=headers, timeout=300)
           response.raise_for_status()
           print(f"Downloaded {len(response.content)} bytes")
 
