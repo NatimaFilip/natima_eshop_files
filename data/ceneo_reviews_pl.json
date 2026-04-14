@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Jestem bardzo zadowolona."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Super dostawca!"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Bardzo szybka wysyłka i dobra informacja o przesyłce."
         }
       },
@@ -103,22 +119,6 @@
         },
         "summary": {
           "_cdata": "Ok."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "BARDZO DOBRA OBSŁUGA I SZYBKA REALIZACJA ZAMÓWIENIA DZIĘKUJĘ I POZDRAWIAM SERDECZNIE"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Dostawa jak należy."
         }
       }
     ]
