@@ -3,6 +3,73 @@
     "review": [
       {
         "rating_id": {
+          "_text": "223853224"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1775494210"
+        },
+        "unix_timestamp": {
+          "_text": "1776161868"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Kvalitné produkty , výborne prezentované \nspolahlivost"
+        },
+        "order_id": {
+          "_text": "226009198"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "223926576"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1775585656"
+        },
+        "unix_timestamp": {
+          "_text": "1776160038"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "S obchodom Natima som mimoriadne spokojná, oceňujem rýchlosť vybavenia objednávky, kvalitné zapálenie tovaru, nikdy som nemala poškodený obal alebo obsah balíka. Dávam najvyššie hodnotenie. Ďakujem za spoľahlivosť."
+        },
+        "order_id": {
+          "_text": "226009317"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "223764161"
         },
         "source": {
@@ -1808,85 +1875,6 @@
         },
         "order_id": {
           "_text": "226006324"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "221855674"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1772701151"
-        },
-        "unix_timestamp": {
-          "_text": "1773315974"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Neuveriteľne rýchlo vybavená objednávka, tovar doručený v dohodnutý deň, neporušený obal. Bola som príjemne prekvapená."
-        },
-        "cons": {
-          "_cdata": "Zatiaľ žiadnu nevidím."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226006177"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "221820907"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1772648724"
-        },
-        "unix_timestamp": {
-          "_text": "1773242089"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "4.5"
-        },
-        "communication": {
-          "_text": "4.5"
-        },
-        "pros": {
-          "_cdata": "Našla som tam,čo potrebujem. Rýchle doručenie."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226006138"
         }
       }
     ]
