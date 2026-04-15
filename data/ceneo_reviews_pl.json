@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Proces zakupu był bardzo łatwy dogodny."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "To był bardzo dobry zakup sklep jest bardzo dobrze zaopatrzony"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Jestem bardzo zadowolona."
         }
       },
@@ -103,22 +119,6 @@
         },
         "summary": {
           "_cdata": "Wszystko perfekcyjnie !!!"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "👌👌"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Ok."
         }
       }
     ]
