@@ -3,6 +3,79 @@
     "review": [
       {
         "rating_id": {
+          "_text": "915781221"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1775938328"
+        },
+        "unix_timestamp": {
+          "_text": "1776551042"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Nejširší výběr zn. SWANSON z USA."
+        },
+        "summary": {
+          "_cdata": "Už jsem hodnotila asi 100x. Je to můj “dvorní” e-shop na potravní doplňky a někdy i potraviny už několik let. Zatím jsem spokojena nákup od nákupu. Mohu jen doporučit. Mají nejširší nabídku značky SWANSON, která se hodně orientuje na čistě bylinné preparáty (nejen), celkově na doplňky s vysokou vstřebatelností a je zde dobrý poměr cena/výkon. Celkově má NATIMA velmi solidní jednání."
+        },
+        "order_id": {
+          "_text": "126031818"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "915717558"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1775910614"
+        },
+        "unix_timestamp": {
+          "_text": "1776506400"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Rychlé doručení a precizně zabalené."
+        },
+        "order_id": {
+          "_text": "126031724"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "915655218"
         },
         "source": {
@@ -1832,82 +1905,6 @@
         },
         "order_id": {
           "_text": "126007023"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "911479274"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1773993364"
-        },
-        "unix_timestamp": {
-          "_text": "1774619478"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Rychlost vyřízení."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byla spokojená s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126025489"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "909547725"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1773254506"
-        },
-        "unix_timestamp": {
-          "_text": "1774533061"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "rychlost dodání"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byla spokojená s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126022865"
         }
       }
     ]
