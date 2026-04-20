@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "224286344"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776074979"
+        },
+        "unix_timestamp": {
+          "_text": "1776667932"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "OK"
+        },
+        "order_id": {
+          "_text": "226009871"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "224297087"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776083108"
+        },
+        "unix_timestamp": {
+          "_text": "1776666008"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Objednávam pravidelne a nikdy nedošlo k žiadnemu problému, vždy bolo všetko super."
+        },
+        "order_id": {
+          "_text": "226009900"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "224037408"
         },
         "source": {
@@ -1805,88 +1875,6 @@
         },
         "order_id": {
           "_text": "226006775"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "217133538"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1766141754"
-        },
-        "unix_timestamp": {
-          "_text": "1773721483"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Super."
-        },
-        "summary": {
-          "_cdata": "Všetko prišlo v poriadku. Výrobok je výborný."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "225025570"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "222157773"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1773095679"
-        },
-        "unix_timestamp": {
-          "_text": "1773683857"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rýchle vybavenie objednávky a odoslanie\nRýchle doručenie \nSkvele webové stránky!!\nKrásne prehľadne zoradené popísané dopodrobna\nDoplnky sú super, ľahko stráviteľné neostáva \"ťažký\" pocit v žalúdku, cítim zmenu k lepšiemu pri užívaní \nSuper cena za takúto kvalitu v porovnaní s inymi obchodmi"
-        },
-        "summary": {
-          "_cdata": "Som nadmieru spokojná! Robila som si osobne prehľad rôznych druhov doplnkov všade možne na webe. Objednávala som aj z Ameriky doplnky ale som veľmi rada že som narazila na tento obchod naozaj super spokojnosť. Veľmi som prekvapená aj stránkami je vidno že si dajú záležať. Samotné produkty beriem možno týždeň tuším a cítim fyzicky zmenu. Veľké plus že nie sú ťažké na žalúdok aj keď ich beriem viac. Veľká vďaka celému tímu. Určite ďalej objednávam."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226006707"
         }
       }
     ]
