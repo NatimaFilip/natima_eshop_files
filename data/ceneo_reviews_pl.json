@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Pozdrawiam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Towar zgodny z zamówieniem"
         }
       },
@@ -103,14 +111,6 @@
         },
         "summary": {
           "_cdata": "To był bardzo dobry zakup sklep jest bardzo dobrze zaopatrzony"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jestem bardzo zadowolona."
         }
       }
     ]
