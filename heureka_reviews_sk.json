@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "224512371"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776326990"
+        },
+        "unix_timestamp": {
+          "_text": "1776922962"
+        },
+        "total_rating": {
+          "_text": "4.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Kvalitné vitamíny, rýchle doručenie"
+        },
+        "cons": {
+          "_cdata": "Cena"
+        },
+        "order_id": {
+          "_text": "226010226"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "224221969"
         },
         "source": {
@@ -1855,44 +1893,6 @@
         },
         "order_id": {
           "_text": "226006848"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "222207215"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1773157588"
-        },
-        "unix_timestamp": {
-          "_text": "1773768869"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "kvalitné služby  a seriózny pristupa ser"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226006779"
         }
       }
     ]
