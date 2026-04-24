@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "916052443"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776051400"
+        },
+        "unix_timestamp": {
+          "_text": "1777008741"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "kvalitní produkty, objednávám pravidelně, rychlé dodání, prostě super firma"
+        },
+        "order_id": {
+          "_text": "126032206"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "917082227"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776384256"
+        },
+        "unix_timestamp": {
+          "_text": "1776929689"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "1.5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Единственное,  долгая доставка, хотелось бы в течении нескольких дней,  а в остальном довольна"
+        },
+        "order_id": {
+          "_text": "126033805"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "916622760"
         },
         "source": {
@@ -1853,91 +1923,6 @@
         },
         "order_id": {
           "_text": "126026559"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "912118702"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1774268169"
-        },
-        "unix_timestamp": {
-          "_text": "1774858768"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Nakupují v obchodě pravidelně a jsem spokojená,proto se vždy vracím..."
-        },
-        "cons": {
-          "_cdata": "Jen bych doporučila více produktů bez zbytečných plniv,umělých cukrů,aditiv navíc,maltodextrinu,sukralózy,umělých příchutí a barviv....atd."
-        },
-        "summary": {
-          "_cdata": "Jinak ale mohu doporučit..."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. \r\n\r\nZároveň děkujeme i za cenný podnět ohledně složení produktů. Doporučujeme podívat se na produkty značky NATIOS, které jsou zaměřené právě na co nejčistší složení bez zbytečných příměsí https://www.natima.cz/natios/strana-2/.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126026420"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "912039225"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1774247838"
-        },
-        "unix_timestamp": {
-          "_text": "1774856228"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Sortiment\nRychlé odeslání\nCena"
-        },
-        "summary": {
-          "_cdata": "Tento e-shop mohu každému doporučit."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojený s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126026281"
         }
       }
     ]
