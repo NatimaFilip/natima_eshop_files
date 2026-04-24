@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Towar dobrze zabezpieczony."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Szybko, bez problemów"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Bezproblemowo i błyskawicznie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko ok"
         }
       },
@@ -111,14 +135,6 @@
         },
         "summary": {
           "_cdata": "Była bardzo dobrze zapakowana i dostarczona"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo Dobre Suple 🫡"
         }
       }
     ]
