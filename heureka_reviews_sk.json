@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "222064749"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1772997633"
+        },
+        "unix_timestamp": {
+          "_text": "1777012795"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Spoľahlivý obchod, kvalitné výrobky, rýchle dodanie, milá komunikácia, odporúčam :-)"
+        },
+        "order_id": {
+          "_text": "226006514"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "224512371"
         },
         "source": {
@@ -1855,44 +1890,6 @@
         },
         "order_id": {
           "_text": "226006947"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "222262080"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1773225555"
-        },
-        "unix_timestamp": {
-          "_text": "1773833235"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "spoľahlivý obchod, rýchle dodanie, výborné ceny, široký sortiment"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226006848"
         }
       }
     ]
