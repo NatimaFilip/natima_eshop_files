@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "224744715"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776665159"
+        },
+        "unix_timestamp": {
+          "_text": "1777300611"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "4.5"
+        },
+        "communication": {
+          "_text": "4.5"
+        },
+        "summary": {
+          "_cdata": "Flexibilita predajcu resp. dodávateľa."
+        },
+        "order_id": {
+          "_text": "226010532"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "224720043"
         },
         "source": {
@@ -1837,44 +1872,6 @@
         },
         "order_id": {
           "_text": "226007703"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "222759398"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1773837232"
-        },
-        "unix_timestamp": {
-          "_text": "1774445504"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Výborný sortiment. Rýchle dodanie."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojný s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226007628"
         }
       }
     ]
