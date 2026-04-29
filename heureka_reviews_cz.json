@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "918335245"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776859249"
+        },
+        "unix_timestamp": {
+          "_text": "1777447339"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "2.5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "kvalita výrobků značky Natios\nceny\nrychlost dodání\nmožnost osobního odběru\nkomunikace\ntrvalá sleva až 8%"
+        },
+        "summary": {
+          "_cdata": "Celkově jsem spokojený. E-shop je přehledný, komunikace včetně odpovědí na dotazy je v pořádku. Zboží bylo vyskladněno a připraveno k odběru během několika hodin. Snad jen místo pro osobní odběr není nejvhodnější. Je určeno pro příjezd autem. Cesta (což není chyba Natimy) připomíná tankodrom, na druhé straně Natima si vybrala místo s takovým příjezdem."
+        },
+        "order_id": {
+          "_text": "126035413"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "918031859"
         },
         "source": {
@@ -1855,47 +1893,6 @@
         },
         "order_id": {
           "_text": "126028113"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "913447711"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1774832833"
-        },
-        "unix_timestamp": {
-          "_text": "1775410874"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Slušné ceny, rychlé vyřízení objednávky."
-        },
-        "summary": {
-          "_cdata": "Doporučuji."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126028292"
         }
       }
     ]
