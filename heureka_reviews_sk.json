@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "224542587"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1776358539"
+        },
+        "unix_timestamp": {
+          "_text": "1777817232"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "spoľahlivý \nrýchle dodanie \ndobre zabalený tovar"
+        },
+        "order_id": {
+          "_text": "226010271"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "225083260"
         },
         "source": {
@@ -1831,44 +1866,6 @@
         },
         "order_id": {
           "_text": "226007856"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "222810751"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1773905825"
-        },
-        "unix_timestamp": {
-          "_text": "1774504775"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Vsetko super, veľmi rýchlo doručené. Odporúčam tento obchod."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226007705"
         }
       }
     ]
