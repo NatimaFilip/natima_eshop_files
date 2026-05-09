@@ -6,6 +6,46 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko w porządku"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Jestem zadowolona"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Dobra usługa"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "wszystko OK"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Transakcja przebiegła bezproblemowo"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Super szybko i na temat"
         }
       },
@@ -103,30 +143,6 @@
         },
         "summary": {
           "_cdata": "Produkty są OK"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zamówione produkty super zapakowane"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "kontakt ze sprzedawca bardzo szybki z szybką wysyłką"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Produkt jest bardzo dobry i polecam sprzedjącego"
         }
       }
     ]
