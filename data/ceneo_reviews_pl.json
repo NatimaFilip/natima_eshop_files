@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Świetnej jakości produkty, skład doskonały. Kocham Czechy!!! :)"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Gorąco polecam naturalne produkty, białko ma niesamowity smak, naturalnego mleka, mega sztos!!!"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko w porządku"
         }
       },
@@ -127,22 +143,6 @@
         },
         "summary": {
           "_cdata": "Bardzo dobry suplement, polecam zamawiać w tym sklepie."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Produkty są OK"
         }
       }
     ]
