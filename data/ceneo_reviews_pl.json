@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Produkty są wysokiej jakości i w eleganckich opakowaniach"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Szybko dostarczona paczka"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Jestem zadowolona"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Świetnej jakości produkty, skład doskonały. Kocham Czechy!!! :)"
         }
       },
@@ -127,22 +151,6 @@
         },
         "summary": {
           "_cdata": "Szybko , bez niespodzianek. Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo dobra komunikacja, produkt sprawdzony, działa."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo dobry suplement, polecam zamawiać w tym sklepie."
         }
       }
     ]
