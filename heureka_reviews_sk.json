@@ -3,6 +3,82 @@
     "review": [
       {
         "rating_id": {
+          "_text": "225679978"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1777979844"
+        },
+        "unix_timestamp": {
+          "_text": "1778565758"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "rýchle dodanie"
+        },
+        "order_id": {
+          "_text": "226011819"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "225703158"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1778003773"
+        },
+        "unix_timestamp": {
+          "_text": "1778565638"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Natural doplnky výživy"
+        },
+        "cons": {
+          "_cdata": "Menšia  chyba - Zásobník na tabletky Natios nemajú dobre uzatváratelné veko.. slabé"
+        },
+        "summary": {
+          "_cdata": "Max. pokojnosť, skvelé výrobky v naturalnej podobe, krásne obaly výrobkov, primerané ceny i pedantne zabalená zásielka..  všetko top, ďakujem."
+        },
+        "order_id": {
+          "_text": "226011852"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "225570348"
         },
         "source": {
@@ -1766,82 +1842,6 @@
         },
         "order_id": {
           "_text": "226008362"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "223212261"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1774444826"
-        },
-        "unix_timestamp": {
-          "_text": "1775108360"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Rychle donanie aj rychla odpoved v pripade otazok."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226008350"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "222887631"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1774005063"
-        },
-        "unix_timestamp": {
-          "_text": "1775045101"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Rýchla dodávka a platba pri doručení."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226007827"
         }
       }
     ]
