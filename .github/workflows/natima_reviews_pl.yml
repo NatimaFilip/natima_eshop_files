@@ -1,4 +1,4 @@
-name: Generate Natima Product Reviews Feed PL
+name: Generate Natima Product Reviews FeedPL
 
 on:
   schedule:

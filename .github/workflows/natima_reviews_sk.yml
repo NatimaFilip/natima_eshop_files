@@ -1,4 +1,4 @@
-name: Generate Natima Product Reviews Feed SK
+name: Generate Natima Product Reviews FeedSK
 
 on:
   schedule:
