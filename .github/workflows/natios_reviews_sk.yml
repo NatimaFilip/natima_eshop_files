@@ -2,7 +2,7 @@ name: Generate Natios Product Reviews Feed SK
 
 on:
   schedule:
-    - cron: "0 21 * * *" # 23:00 CET (UTC+1) or 00:00 CEST (UTC+2) — runs nightly
+    - cron: "0 22 * * *" # 23:00 CET (UTC+1) or 00:00 CEST (UTC+2) — runs nightly
   workflow_dispatch: # Allow manual trigger
 
 permissions:
