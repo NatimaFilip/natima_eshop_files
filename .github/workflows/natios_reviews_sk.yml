@@ -1,4 +1,4 @@
-name: Generate Natios Product Reviews Feed SK
+name: Generate Natios Product Reviews FeedSK
 
 on:
   schedule:
