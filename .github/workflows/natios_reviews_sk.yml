@@ -1,8 +1,8 @@
-name: Generate Natios Product Reviews Feed CZ
+name: Generate Natios Product Reviews Feed SK
 
 on:
   schedule:
-    - cron: "0 20 * * *" # 23:00 CET (UTC+1) or 00:00 CEST (UTC+2) — runs nightly
+    - cron: "0 22 * * *" # 23:00 CET (UTC+1) or 00:00 CEST (UTC+2) — runs nightly
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
           import os
           import time
 
-          SOURCE_URL = "https://doplnky.marketinghub.cz/google/files/xml/740472-69dcd4c73f5fa.xml"
+          SOURCE_URL = "https://doplnky.marketinghub.cz/google/files/xml/787434-6a04122a93b05.xml"
 
           # Set up a session with automatic retries and backoff
           session = requests.Session()
@@ -108,7 +108,7 @@ jobs:
 
           # Write output
           os.makedirs("Reviews", exist_ok=True)
-          output_path = "Reviews/Natios_reviews_cz.xml"
+          output_path = "Reviews/Natios_reviews_sk.xml"
 
           tree = ET.ElementTree(shop)
           ET.indent(tree, space="   ")
@@ -127,5 +127,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Reviews/Natios_reviews_cz.xml
-          git diff --cached --quiet && echo "No changes to commit" || (git commit -m "Update Natios_reviews_cz.xml $(date -u +%Y-%m-%d)" && git push)
+          git add Reviews/Natios_reviews_sk.xml
+          git diff --cached --quiet && echo "No changes to commit" || (git commit -m "Update Natios_reviews_sk.xml $(date -u +%Y-%m-%d)" && git push)
