@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wręcz idealnie."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Świetny produkt, białko naturalne i mega smaczne prawdziwy sztos!"
         }
       },
@@ -119,22 +127,6 @@
         },
         "summary": {
           "_cdata": "Wszystko w porządku"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jestem zadowolona"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Dobra usługa"
         }
       }
     ]
