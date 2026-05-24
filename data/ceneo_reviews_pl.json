@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko tak jak trzeba"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Wszystko zgodne z zamówieniem, produkty godne polecenia"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Narazie niewiem co o produkcie napisac"
         }
       },
@@ -95,14 +111,6 @@
         },
         "summary": {
           "_cdata": "Gorąco polecam!!!"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super"
         }
       }
     ]
