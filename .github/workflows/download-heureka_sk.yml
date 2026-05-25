@@ -3,8 +3,8 @@ name: Download and Convert Heureka Export_SK
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 7 * * *'   # every day at 08:00 Prague (summer)
-    - cron: '0 17 * * *'  # every day at 12:00 Prague (summer)
+    - cron: "0 7 * * *" # every day at 08:00 Prague (summer)
+    - cron: "0 17 * * *" # every day at 12:00 Prague (summer)
 
 permissions:
   contents: write
@@ -26,6 +26,10 @@ jobs:
       - name: Download XML file
         run: |
           curl -o heureka_reviews_sk.xml "https://www.heureka.sk/direct/dotaznik/export-review.php?key=8631ba0dcded0be092608d4c822bcc26"
+
+      - name: Sanitize XML (escape stray ampersands)
+        run: |
+          perl -i -pe 's/&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9A-Fa-f]+);)/&amp;/g' heureka_reviews_sk.xml
 
       - name: Convert XML to JSON
         run: |
