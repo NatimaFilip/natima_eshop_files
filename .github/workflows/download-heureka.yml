@@ -20,23 +20,22 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq npm libxml2-utils
+          sudo apt-get install -y jq npm
           npm install -g xml-js
 
       - name: Download XML file
         run: |
           curl -o heureka_reviews_cz.xml "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
 
-      - name: Sanitize XML (escape stray ampersands)
+      - name: Sanitize XML (escape stray ampersands and stray <)
         run: |
+          # Escape stray & not part of an entity
           perl -i -pe 's/&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9A-Fa-f]+);)/&amp;/g' heureka_reviews_cz.xml
+          # Escape stray < that isn't followed by a valid XML name-start, ?, !, or /
+          # This catches things like "< 5" or stray HTML fragments in review text outside CDATA.
+          perl -i -pe 's{<(?![A-Za-z_/?!])}{&lt;}g' heureka_reviews_cz.xml
 
-      - name: Repair XML with xmllint --recover
-        run: |
-          xmllint --recover --encode UTF-8 heureka_reviews_cz.xml > heureka_reviews_cz.recovered.xml || true
-          mv heureka_reviews_cz.recovered.xml heureka_reviews_cz.xml
-
-      - name: Convert XML to JSON
+      - name: Convert XML to JSON (preserves CDATA)
         run: |
           npx xml-js heureka_reviews_cz.xml --compact --spaces 2 > heureka_reviews_cz.json
 
