@@ -25,7 +25,21 @@ jobs:
 
       - name: Download XML file
         run: |
-          curl -o heureka_reviews_cz.xml "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
+          curl -fL --retry 5 --retry-delay 10 --retry-all-errors \
+            -A "Mozilla/5.0 (compatible; GitHubActions/1.0)" \
+            -o heureka_reviews_cz.xml \
+            "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
+          # Fail early if response is HTML instead of XML
+          if head -c 200 heureka_reviews_cz.xml | grep -qiE '<!doctype html|<html|<head'; then
+            echo "ERROR: Heureka returned an HTML page instead of XML. First 500 bytes:"
+            head -c 500 heureka_reviews_cz.xml
+            exit 1
+          fi
+          if ! head -c 200 heureka_reviews_cz.xml | grep -qiE '<\?xml|<reviews'; then
+            echo "ERROR: Downloaded file does not look like the expected XML feed. First 500 bytes:"
+            head -c 500 heureka_reviews_cz.xml
+            exit 1
+          fi
 
       - name: Sanitize XML (escape stray ampersands and stray <)
         run: |
