@@ -30,6 +30,7 @@ jobs:
             -H "Accept: application/xml,text/xml,*/*;q=0.9" \
             -H "Accept-Language: cs-CZ,cs;q=0.9,en;q=0.8" \
             -H "Accept-Encoding: gzip, deflate, br" \
+            -H "Referer: https://sluzby.heureka.cz/" \
             --compressed \
             -o heureka_reviews_cz.xml \
             "https://www.heureka.cz/direct/dotaznik/export-review.php?key=43470027a41b7d12cb8121f48a5b6369"
@@ -44,14 +45,6 @@ jobs:
             head -c 500 heureka_reviews_cz.xml
             exit 1
           fi
-
-      - name: Sanitize XML (escape stray ampersands and stray <)
-        run: |
-          # Escape stray & not part of an entity
-          perl -i -pe 's/&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9A-Fa-f]+);)/&amp;/g' heureka_reviews_cz.xml
-          # Escape stray < that isn't followed by a valid XML name-start, ?, !, or /
-          # This catches things like "< 5" or stray HTML fragments in review text outside CDATA.
-          perl -i -pe 's{<(?![A-Za-z_/?!])}{&lt;}g' heureka_reviews_cz.xml
 
       - name: Convert XML to JSON (preserves CDATA)
         run: |
