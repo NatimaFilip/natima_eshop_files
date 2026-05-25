@@ -20,7 +20,7 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq npm
+          sudo apt-get install -y jq npm libxml2-utils
           npm install -g xml-js
 
       - name: Download XML file
@@ -30,6 +30,11 @@ jobs:
       - name: Sanitize XML (escape stray ampersands)
         run: |
           perl -i -pe 's/&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9A-Fa-f]+);)/&amp;/g' heureka_reviews_sk.xml
+
+      - name: Repair XML with xmllint --recover
+        run: |
+          xmllint --recover --encode UTF-8 heureka_reviews_sk.xml > heureka_reviews_sk.recovered.xml || true
+          mv heureka_reviews_sk.recovered.xml heureka_reviews_sk.xml
 
       - name: Convert XML to JSON
         run: |
