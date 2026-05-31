@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Rewelacja"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "👍🏼"
         }
       },
@@ -135,14 +143,6 @@
         },
         "summary": {
           "_cdata": "Miała obsługa szybki zakup dobra jakosc"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "POLECAM!"
         }
       }
     ]
