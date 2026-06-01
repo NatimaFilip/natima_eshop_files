@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "923695587"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1779084195"
+        },
+        "unix_timestamp": {
+          "_text": "1780319613"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "balíček s hořčíkem na den i noc si kupuji již delší dobu, vyhovuje mi maximálně, cena příznivá, kvalita vysoká, rychlost vyřízení objednávky dobrá"
+        },
+        "order_id": {
+          "_text": "126042487"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "925096780"
         },
         "source": {
@@ -31,6 +66,9 @@
         },
         "summary": {
           "_cdata": "Rychlost, spolehlivost."
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu. Těší nás, že vše proběhlo k Vaší spokojenosti.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
         },
         "order_id": {
           "_text": "126044134"
@@ -67,6 +105,9 @@
         "pros": {
           "_cdata": "kvalita"
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Těší nás, že jste byl s nákupem spokojen.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
+        },
         "order_id": {
           "_text": "126042815"
         }
@@ -101,6 +142,9 @@
         },
         "cons": {
           "_cdata": "Menší problém s dodání ,potíže s kurýrní službou."
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši zpětnou vazbu. Mrzí nás, že při doručení nastaly komplikace s kurýrní službou. Jsme rádi, že se i přesto se podařilo zásilku doručit, a věříme, že příště proběhne vše bez potíží.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
         },
         "order_id": {
           "_text": "126041743"
@@ -137,6 +181,9 @@
         "summary": {
           "_cdata": "Vše ok"
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Jsme rádi, že vše proběhlo v pořádku.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
+        },
         "order_id": {
           "_text": "126043748"
         }
@@ -171,6 +218,9 @@
         },
         "pros": {
           "_cdata": "Velice rychlé doručení, perfektně zabaleno."
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, velmi si jí vážíme. Těší nás, že jste byla s našimi službami spokojena a že vše proběhlo v pořádku.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
         },
         "order_id": {
           "_text": "126042568"
@@ -239,6 +289,9 @@
         "pros": {
           "_cdata": "Rychlý, spolehlivý obchod."
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, velmi si jí vážíme. Těší nás, že vše proběhlo k Vaší spokojenosti.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
+        },
         "order_id": {
           "_text": "126043423"
         }
@@ -274,6 +327,9 @@
         "pros": {
           "_cdata": "ochota, příjemné vystupování\nosobní odběr v Ostravě  je v dost nehostiné části města"
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši zpětnou vazbu, velmi si jí vážíme. Moc nás těší, že jste byl spokojen s našim týmem. Mrzí nás, že okolí místa pro osobní odběr na Vás nepůsobilo ideálně. Věříme však, že samotné vyzvednutí proběhlo rychle a bez komplikací, a budeme se i nadále snažit, aby byla návštěva u nás co nejpříjemnější.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
+        },
         "order_id": {
           "_text": "126043195"
         }
@@ -308,6 +364,9 @@
         },
         "pros": {
           "_cdata": "rychlost vyřízení a  dodání objednávky"
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, velmi si jí vážíme. Těší nás, že vyřízení i dodání objednávky proběhlo rychle a k Vaší spokojenosti.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
         },
         "order_id": {
           "_text": "126040593"
@@ -346,6 +405,9 @@
         },
         "cons": {
           "_cdata": "Nic"
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Jsme rádi, že jste byli spokojeni s rychlostí dodání.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
         },
         "order_id": {
           "_text": "126042711"
@@ -1849,44 +1911,6 @@
         },
         "order_id": {
           "_text": "126037818"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "920419764"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1777803255"
-        },
-        "unix_timestamp": {
-          "_text": "1778420246"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Objednávám často a pokaždé jsem velmi spokojená,doporučuji!"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126037885"
         }
       }
     ]
