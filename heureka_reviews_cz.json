@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "925698938"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1779866644"
+        },
+        "unix_timestamp": {
+          "_text": "1780475121"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Vše funguje k plné spokojenosti, nemám žádné výhrady."
+        },
+        "order_id": {
+          "_text": "126044779"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "924115580"
         },
         "source": {
@@ -1873,44 +1908,6 @@
         },
         "order_id": {
           "_text": "126038263"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "920740239"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1777915244"
-        },
-        "unix_timestamp": {
-          "_text": "1778527500"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rychle a bezproblémové jednání, velký výběr zboží, našla jsem tu výrobek, který lze těžko kdekoliv koupit."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojená s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126038314"
         }
       }
     ]
