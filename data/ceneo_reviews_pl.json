@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko w porządku"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "B szybko wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Co tu pisać za szybko żeby ocenić towar"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Sprawnie ,szybko i estetycznie zapakowane,firma rzetelna"
         }
       },
@@ -127,22 +151,6 @@
         },
         "summary": {
           "_cdata": "Wszystko zgodne z zamówieniem, produkty godne polecenia"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Narazie niewiem co o produkcie napisac"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jest okay.Owocnej współpracy.Z poważaniem:H.I.S."
         }
       }
     ]
