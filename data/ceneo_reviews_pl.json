@@ -6,6 +6,30 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Dobrze się u was kupuje.Jestem spokojna, że zamówienia dotrą.Pozdrawiam i miłego dnia."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Polecam zakup w natima.pl"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Bardzo dobra i czytelna"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko w porządku"
         }
       },
@@ -127,30 +151,6 @@
         },
         "summary": {
           "_cdata": "Błyskawiczna usługa."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Profesjonalizm i szybkość to dewiza firmy. Towar dostarczony szybko, bardzo dobrze zabezpieczona szklana butelka."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko tak jak trzeba"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko zgodne z zamówieniem, produkty godne polecenia"
         }
       }
     ]
