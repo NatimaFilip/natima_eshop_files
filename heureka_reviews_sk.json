@@ -3,6 +3,38 @@
     "review": [
       {
         "rating_id": {
+          "_text": "227264023"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1780060441"
+        },
+        "unix_timestamp": {
+          "_text": "1780727355"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Objednávka prvý krát a spokojnosť"
+        },
+        "order_id": {
+          "_text": "226014255"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "227229611"
         },
         "source": {
@@ -1873,47 +1905,6 @@
         },
         "order_id": {
           "_text": "226006514"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "224512371"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1776326990"
-        },
-        "unix_timestamp": {
-          "_text": "1776922962"
-        },
-        "total_rating": {
-          "_text": "4.5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Kvalitné vitamíny, rýchle doručenie"
-        },
-        "cons": {
-          "_cdata": "Cena"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226010226"
         }
       }
     ]
