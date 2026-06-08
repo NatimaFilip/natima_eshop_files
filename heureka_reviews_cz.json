@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "925806228"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1779897913"
+        },
+        "unix_timestamp": {
+          "_text": "1780918323"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlé vyřízení objednávky \nŠiroký sortiment výrobků \nZajímavé produkty za celkem příznivé ceny"
+        },
+        "summary": {
+          "_cdata": "Předpokládám, že i kvalita je výborná, to člověk sám asi nedokáže posoudit, možná po delší době užívání . Zatím spokojenost"
+        },
+        "order_id": {
+          "_text": "126044886"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "925732631"
         },
         "source": {
@@ -1879,44 +1917,6 @@
         },
         "order_id": {
           "_text": "126039442"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "921208603"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1778088254"
-        },
-        "unix_timestamp": {
-          "_text": "1778721611"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Velká spokojenost při komunikaci a rychlosti doručení."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126039030"
         }
       }
     ]
