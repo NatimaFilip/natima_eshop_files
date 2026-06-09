@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "926368300"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1780163482"
+        },
+        "unix_timestamp": {
+          "_text": "1780939656"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Super vitamíny"
+        },
+        "summary": {
+          "_cdata": "Nejlepší magnesium"
+        },
+        "order_id": {
+          "_text": "126045390"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "925806228"
         },
         "source": {
@@ -1879,44 +1917,6 @@
         },
         "order_id": {
           "_text": "126039159"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "921446911"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1778190272"
-        },
-        "unix_timestamp": {
-          "_text": "1778742643"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Skvělá rychlost a komunikace s obchodem. Nakupuji pravidelně a vždy s naprostou spokojeností"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126039442"
         }
       }
     ]
