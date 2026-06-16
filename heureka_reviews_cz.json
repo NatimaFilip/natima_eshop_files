@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "928436095"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1781022430"
+        },
+        "unix_timestamp": {
+          "_text": "1781600191"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Ceny\nVýběr \nRychlost vyřízení objednávky"
+        },
+        "summary": {
+          "_cdata": "Najdu zde, vše co potřebuji. Doporučuji."
+        },
+        "order_id": {
+          "_text": "126047840"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "928283189"
         },
         "source": {
@@ -1870,47 +1908,6 @@
         },
         "order_id": {
           "_text": "126040846"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "922342393"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1778576894"
-        },
-        "unix_timestamp": {
-          "_text": "1779193043"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Kvalitni vitaminy, kontakt i po telefonu, rychle dodani, dekuji"
-        },
-        "summary": {
-          "_cdata": "Shrnula jsem vyse"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojená s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126040523"
         }
       }
     ]
