@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Polecam w 100%"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Oky"
         }
       },
@@ -119,14 +127,6 @@
         },
         "summary": {
           "_cdata": "B szybko wszystko ok"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Co tu pisać za szybko żeby ocenić towar"
         }
       }
     ]
