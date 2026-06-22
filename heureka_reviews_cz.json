@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "929749009"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1781528511"
+        },
+        "unix_timestamp": {
+          "_text": "1782130949"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Vždy rychlí a spolehlivi"
+        },
+        "order_id": {
+          "_text": "126049360"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "929326484"
         },
         "source": {
@@ -572,47 +607,6 @@
         },
         "order_id": {
           "_text": "126046330"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "923508299"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1779018535"
-        },
-        "unix_timestamp": {
-          "_text": "1781074353"
-        },
-        "total_rating": {
-          "_text": "1.5"
-        },
-        "recommends": {
-          "_text": "0"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "cons": {
-          "_cdata": "Káva velmi nekvalitní,  s kosmetikou jsem spokojen. Dodání v pořádku"
-        },
-        "summary": {
-          "_cdata": "Kávu zde nekupuj."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme Vám za zpětnou vazbu. Moc nás mrzí, že jste s kávou nebyla spokojená, kvalita našich produktů je pro nás na prvním místě, a proto Vaši připomínku předáme dál našemu týmu, abychom mohli věci zlepšit.\r\n\r\nZároveň nás těší, že jste byla spokojená s kosmetikou i s rychlostí dodání. Pokud byste nám chtěla ke kávě sdělit více podrobností, rádi se tím budeme zabývat, budeme vděční za jakékoliv informace, které nám pomohou.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126042185"
         }
       },
       {
