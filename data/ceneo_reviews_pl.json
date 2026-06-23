@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Jestem bardzo zadowolony z zakupu, pozdrawiam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Wszystko ok.polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Bardzo dobrze."
         }
       },
@@ -95,22 +111,6 @@
         },
         "summary": {
           "_cdata": "Jestem bardzo zadowolona z obsługi i zamówionych suplementów."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "szybka realizacja zamowienia...dobry kontakt...polecam"
         }
       }
     ]
