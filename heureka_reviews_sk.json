@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "228611149"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1781879804"
+        },
+        "unix_timestamp": {
+          "_text": "1782468495"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Tovar mi prišiel dobre zabalený, v krátkom čase.Zatial som  horčík neužila, chcem začať od budúceho mesiaca.  Tento horčík mi bol . LPdoporučený ako   veľmi dobrý. Tak uvidím\n."
+        },
+        "order_id": {
+          "_text": "226016131"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "228538579"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1781782225"
+        },
+        "unix_timestamp": {
+          "_text": "1782462643"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Vynikajúce ceny a tovar hneď na druhý deň!"
+        },
+        "order_id": {
+          "_text": "226016041"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "228559450"
         },
         "source": {
@@ -1823,88 +1893,6 @@
         },
         "order_id": {
           "_text": "226011943"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "225679978"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1777979844"
-        },
-        "unix_timestamp": {
-          "_text": "1778565758"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "rýchle dodanie"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojná s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226011819"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "225703158"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1778003773"
-        },
-        "unix_timestamp": {
-          "_text": "1778565638"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Natural doplnky výživy"
-        },
-        "cons": {
-          "_cdata": "Menšia  chyba - Zásobník na tabletky Natios nemajú dobre uzatváratelné veko.. slabé"
-        },
-        "summary": {
-          "_cdata": "Max. pokojnosť, skvelé výrobky v naturalnej podobe, krásne obaly výrobkov, primerané ceny i pedantne zabalená zásielka..  všetko top, ďakujem."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. \r\n\r\nZároveň nás mrzí, že ste dostali chybný kus zásobníka na tabletky Natios. Prosíme, kontaktujte našu zákaznícku podporu, radi situáciu preveríme a prípadne Vám zásobník vymeníme za nový.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226011852"
         }
       }
     ]
