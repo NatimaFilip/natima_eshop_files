@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "930698584"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1781875514"
+        },
+        "unix_timestamp": {
+          "_text": "1782489383"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Skvělý obchod."
+        },
+        "order_id": {
+          "_text": "126050600"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "930421945"
         },
         "source": {
@@ -1879,44 +1914,6 @@
         },
         "order_id": {
           "_text": "126043195"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "922380861"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1778585860"
-        },
-        "unix_timestamp": {
-          "_text": "1779809354"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "rychlost vyřízení a  dodání objednávky"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, velmi si jí vážíme. Těší nás, že vyřízení i dodání objednávky proběhlo rychle a k Vaší spokojenosti.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
-        },
-        "order_id": {
-          "_text": "126040593"
         }
       }
     ]
