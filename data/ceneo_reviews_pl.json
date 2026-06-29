@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "swietnie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko ok"
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Najlepsza   firma która ma wspaniałe leki polecam tą firmę  wszystkim"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super szybka dostawa"
         }
       }
     ]
