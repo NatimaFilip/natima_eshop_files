@@ -6,6 +6,46 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Zioła bardzo mi pasują"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Bardzo sprawnie przebiegły zakupy, produkty bardzo dobrze zapakowane."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Sprawnie i kulturalnie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Jest ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Szybka wysyłka i dostawa."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Polecam. Szybka dostawa, bardzo dobrze zapakowane, dobry kontakt."
         }
       },
@@ -87,38 +127,6 @@
         },
         "summary": {
           "_cdata": "Wszystko ok.polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo dobrze."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam w 100%"
         }
       }
     ]
