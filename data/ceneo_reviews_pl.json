@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "solidna firma"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko poszło bardzo sprawnie. Polecam."
         }
       },
@@ -103,14 +111,6 @@
         },
         "summary": {
           "_cdata": "Doswiadczenia same pozytywne"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "zgodne z oczekiwaniem"
         }
       }
     ]
