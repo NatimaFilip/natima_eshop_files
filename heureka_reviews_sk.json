@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "229252983"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1782805512"
+        },
+        "unix_timestamp": {
+          "_text": "1783425614"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Výhoda,nemusím chodiť po obchodoch a lekárňach."
+        },
+        "order_id": {
+          "_text": "226016806"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "229060306"
         },
         "source": {
@@ -1873,44 +1908,6 @@
         },
         "order_id": {
           "_text": "226012599"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "225989166"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1778417477"
-        },
-        "unix_timestamp": {
-          "_text": "1779100231"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Objednal som si z Natimi už viac produktov v minulosti a som spokojný. Vaše produkty sú dobré a aj v budúcnosti budem kupovať produkty cez vašu firmu. S nákupom som vždy spokojný aj dodanie tovaru je rýchle"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226012264"
         }
       }
     ]
