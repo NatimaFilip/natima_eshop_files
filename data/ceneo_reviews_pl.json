@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Perfect;)"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Pełen profesjonalizm. Produkty świetnej jakości"
         }
       },
@@ -103,14 +111,6 @@
         },
         "summary": {
           "_cdata": "Sprawnie i kulturalnie"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jest ok"
         }
       }
     ]
