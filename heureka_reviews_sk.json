@@ -3,6 +3,47 @@
     "review": [
       {
         "rating_id": {
+          "_text": "229818258"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1783605665"
+        },
+        "unix_timestamp": {
+          "_text": "1784208413"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Kvalitné a účinne doplnky, dobré ceny, rýchla dodávka"
+        },
+        "cons": {
+          "_cdata": "Žiadna nevýhoda.⁸"
+        },
+        "summary": {
+          "_cdata": "Odporúčam"
+        },
+        "order_id": {
+          "_text": "226017615"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "229706571"
         },
         "source": {
@@ -1873,44 +1914,6 @@
         },
         "order_id": {
           "_text": "226012262"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "226532319"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1779062455"
-        },
-        "unix_timestamp": {
-          "_text": "1779698193"
-        },
-        "total_rating": {
-          "_text": "4"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "4"
-        },
-        "transport_quality": {
-          "_text": "3.5"
-        },
-        "communication": {
-          "_text": "4"
-        },
-        "summary": {
-          "_cdata": "Balík prišiel rýchlo čo je skvelé. Ešte len krátko užívam  Chanca Piedra neviem zatiaľ posúdiť."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226013166"
         }
       }
     ]
