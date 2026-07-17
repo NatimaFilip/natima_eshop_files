@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "931934050"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1782377633"
+        },
+        "unix_timestamp": {
+          "_text": "1784210653"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "rychlé doručení, vše dorazilo v pořádku"
+        },
+        "order_id": {
+          "_text": "126051769"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "934706049"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1783625112"
+        },
+        "unix_timestamp": {
+          "_text": "1784197575"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Ochoda kvalita doplňků"
+        },
+        "order_id": {
+          "_text": "126054580"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "934363408"
         },
         "source": {
@@ -1838,85 +1908,6 @@
         },
         "order_id": {
           "_text": "126045390"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "925806228"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1779897913"
-        },
-        "unix_timestamp": {
-          "_text": "1780918323"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rychlé vyřízení objednávky \nŠiroký sortiment výrobků \nZajímavé produkty za celkem příznivé ceny"
-        },
-        "summary": {
-          "_cdata": "Předpokládám, že i kvalita je výborná, to člověk sám asi nedokáže posoudit, možná po delší době užívání . Zatím spokojenost"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojená s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126044886"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "925732631"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1779875421"
-        },
-        "unix_timestamp": {
-          "_text": "1780890624"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rychlost vyřízení objednávky"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byla spokojená s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126044818"
         }
       }
     ]
