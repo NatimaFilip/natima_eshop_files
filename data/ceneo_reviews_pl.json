@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Dziś pisałem, że będę kupował.To drugi zakup w sklepie. Jestem bardzo zadowolony."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Zaraz, złoże 2-gie zamówienie.Jestem zachwycony tym."
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "solidna firma"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko poszło bardzo sprawnie. Polecam."
         }
       }
     ]
