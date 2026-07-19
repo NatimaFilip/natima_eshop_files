@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Jestem w zupełności zadowolony z usługodawcy"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Dziś pisałem, że będę kupował.To drugi zakup w sklepie. Jestem bardzo zadowolony."
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Bez zarzutów.Doskonale."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "solidna firma"
         }
       }
     ]
