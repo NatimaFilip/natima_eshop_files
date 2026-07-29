@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko przebiegło pomyślnie"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Jest super"
         }
       },
@@ -103,14 +111,6 @@
         },
         "summary": {
           "_cdata": "Zaraz, złoże 2-gie zamówienie.Jestem zachwycony tym."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super sprzedawca."
         }
       }
     ]
