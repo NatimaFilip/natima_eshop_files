@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Super,szybka dostawa."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Wszystko super !!!!"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko przebiegło pomyślnie"
         }
       },
@@ -95,22 +111,6 @@
         },
         "summary": {
           "_cdata": "Jestem w zupełności zadowolony z usługodawcy"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Dziś pisałem, że będę kupował.To drugi zakup w sklepie. Jestem bardzo zadowolony."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zaraz, złoże 2-gie zamówienie.Jestem zachwycony tym."
         }
       }
     ]
