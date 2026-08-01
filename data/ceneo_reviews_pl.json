@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "o k dobrze"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Produkt zgodny z opisem. Szybka realizacja zamówienia."
         }
       },
@@ -119,14 +127,6 @@
         },
         "summary": {
           "_cdata": "Towar zgodny z opisem"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Rzetelnie"
         }
       }
     ]
