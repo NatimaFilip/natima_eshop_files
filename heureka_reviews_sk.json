@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "230855228"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1785080409"
+        },
+        "unix_timestamp": {
+          "_text": "1785673105"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Všetko OK, od objednávky až po promptné doručenie. Osvedčený horčík."
+        },
+        "order_id": {
+          "_text": "226019026"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "230871898"
         },
         "source": {
@@ -1867,44 +1902,6 @@
         },
         "order_id": {
           "_text": "226014255"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "227229611"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1780001780"
-        },
-        "unix_timestamp": {
-          "_text": "1780551766"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Kvalitne produkty, dobry vyber, rychle dodanie"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226014213"
         }
       }
     ]
