@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Super"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Super"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "szybko i sprawnie"
         }
       },
@@ -111,22 +127,6 @@
         },
         "summary": {
           "_cdata": "Firma godna polecenia"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jest ok."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Produkty z Natima.pl  są naj leprze bardzo dobre leczą  i polecam ta firma jest firmą która szybko realizuje bardzo dobre produkty i bardzo szybko dostarcza do klienta"
         }
       }
     ]
