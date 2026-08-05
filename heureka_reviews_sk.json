@@ -3,6 +3,35 @@
     "review": [
       {
         "rating_id": {
+          "_text": "230486581"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1784535058"
+        },
+        "unix_timestamp": {
+          "_text": "1785925045"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "transport_quality": {
+          "_text": "4.5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Spokojnost OK."
+        },
+        "order_id": {
+          "_text": "226018520"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "230998439"
         },
         "source": {
@@ -1852,44 +1881,6 @@
         },
         "order_id": {
           "_text": "226014383"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "227359810"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1780243723"
-        },
-        "unix_timestamp": {
-          "_text": "1780844792"
-        },
-        "total_rating": {
-          "_text": "4"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Som zákazníkom Natima už dlhšie a pravidelne kupujem pre seba i rodinu určité výživové doplnky. Ako uvádzajú sú vysokej kvality bez konzervantov, rôznych prisad a chémie. Ale jedna vec ma tu velmi ruší a to je, že k mojej objednávke 4 flaštičky magnézia mi z vďačnosti pribalili akýsi maličký keksík, že z belgickej čokolády / no skoro som od radosti z kože vyletel/ ktorý je plný rôzneho svinstva, éčiek, prísad, chémie. /hneď išiel do smetí/ Prečo si robia hanbu a budujú si nedôveru, potom si zákazník myslí že aj v ich výrobkoch može byť takýto bordel a vyvoláva to potom otázniky a nedôveru v ich produkty. Myslím že by bolo rozumnejšie keby radšej neposlali nič. Na jednej strane ponúkajú údajne špičkove produkty a na druhej Vám pošlú darček plný bordelu ktorému sa treba vyhýbať."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu spätnú väzbu aj za Vašu dlhodobú dôveru. Veľmi si vážime, že naše produkty pravidelne nakupujete pre seba aj svoju rodinu.\r\n\r\nMrzí nás, že Vás priložený darček k objednávke sklamal. Na zložení našich výživových doplnkov si skutočne zakladáme a darček bol myslený len ako malá pozornosť k objednávke, ktorá mala potešiť, nie vyvolať pochybnosti o našich produktoch. Váš názor si vážime a určite ho vezmeme do úvahy pri výbere darčekov do budúcna.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226014391"
         }
       }
     ]
