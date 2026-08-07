@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "231137643"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1785488250"
+        },
+        "unix_timestamp": {
+          "_text": "1786079001"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Spokojnosť so službami"
+        },
+        "order_id": {
+          "_text": "226019439"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "231043436"
         },
         "source": {
@@ -1843,47 +1878,6 @@
         },
         "order_id": {
           "_text": "226014647"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "227448174"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1780346054"
-        },
-        "unix_timestamp": {
-          "_text": "1780900917"
-        },
-        "total_rating": {
-          "_text": "4"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "cons": {
-          "_cdata": "Ceny sa uz zvysili, na to, ze som mala dost vysoku objednavku, mohli mi dat nejaku väcsiu zlavu alebo zlavovy kod nabuduce, darcek v podobe susienky atd nieje pre mna ziadna motivacia"
-        },
-        "summary": {
-          "_cdata": "Rychle dodanie, velky vyber"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu spätnú väzbu aj za Vašu dlhodobú vernosť, ktorú si veľmi vážime. \r\n\r\nCeny sa snažíme držať čo najnižšie, ako je to možné, no zároveň nechceme robiť kompromisy v kvalite našich produktov. Rozumieme však Vašej pripomienke a vážime si, že ste nám svoj názor napísali.\r\n\r\nZároveň nás mrzí, že Vás priložený darček sklamal, prosím, obráťte sa na našu zákaznícku podporu. Radi Vám pošleme iný darček, ktorý Vás veríme poteší viac.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226014520"
         }
       }
     ]
