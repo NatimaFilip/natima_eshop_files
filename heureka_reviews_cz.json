@@ -32,6 +32,9 @@
         "summary": {
           "_cdata": "Spokojenost."
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že nákup proběhl k vaší spokojenosti.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
+        },
         "order_id": {
           "_text": "126059654"
         }
@@ -66,6 +69,9 @@
         },
         "pros": {
           "_cdata": "Rychlost dodání"
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste byl spokojený s rychlostí doručení.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
         },
         "order_id": {
           "_text": "126058454"
@@ -572,6 +578,9 @@
         },
         "summary": {
           "_cdata": "Range of products is good. Delivery of goods was made the 1st day after purchase (excellent service). One disappointment was the CZK 100 offer for 1st time registration - voucher only received next day with the added constraint that the voucher is only valid for use within the next 10 days."
+        },
+        "reaction": {
+          "_cdata": "Hello, \r\n\r\nThank you for your feedback and rating. We're very pleased that you were satisfied with the range of our product selection and the speed of delivery.\r\n\r\nWe apologize for the delay in sending the voucher email — this delay shouldn't happen. Because of this, we've set your code to have unlimited validity, so you can use it without worry on one of your future orders. If you ever run into a similar issue again, please don't hesitate to reach out to our customer service line, we'll be happy to help resolve it.\r\n\r\nWishing you a great day,\r\non behalf of the Natima team, Tamara."
         },
         "order_id": {
           "_text": "126057111"
