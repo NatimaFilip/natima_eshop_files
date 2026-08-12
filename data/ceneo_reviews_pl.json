@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": ".super"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Szybka dostawa  i zgodna z zamówieniem"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "👌👍"
         }
       },
@@ -103,30 +119,6 @@
         },
         "summary": {
           "_cdata": "Wszystko przebiegło pomyślnie"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Jest super"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
         }
       }
     ]
