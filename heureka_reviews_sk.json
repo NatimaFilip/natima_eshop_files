@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "231482038"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1786014723"
+        },
+        "unix_timestamp": {
+          "_text": "1786695637"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchle dodanie tovaru"
+        },
+        "order_id": {
+          "_text": "226019870"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "231407108"
         },
         "source": {
@@ -1891,44 +1926,6 @@
         },
         "order_id": {
           "_text": "226014902"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "227668255"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1780657775"
-        },
-        "unix_timestamp": {
-          "_text": "1781249893"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Rýchle dodanie"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojný s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226014824"
         }
       }
     ]
