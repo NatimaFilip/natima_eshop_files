@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "W porządku"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Produkty z firmy NATIMA są bardzo wysokiej jakości, w bardzo ładnych opakowaniach."
         }
       },
@@ -119,14 +127,6 @@
         },
         "summary": {
           "_cdata": "wszystko w najlepszym porządku"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super,szybka dostawa."
         }
       }
     ]
