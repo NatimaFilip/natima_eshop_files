@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "To jest jedyny sklep z produktami, które mnie interesują."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Dobrej pory zawsze szybko i bez zniszczeń."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "sprawdzony produkt"
         }
       },
@@ -119,14 +135,6 @@
         },
         "summary": {
           "_cdata": "o k dobrze"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Produkt zgodny z opisem. Szybka realizacja zamówienia."
         }
       }
     ]
