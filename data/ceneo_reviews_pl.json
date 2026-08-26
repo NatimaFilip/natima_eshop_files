@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Super"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Szybko i w prosty sposób otrzymałam produkty. Polecam"
         }
       },
@@ -127,14 +135,6 @@
         },
         "summary": {
           "_cdata": "szybko i sprawnie"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Transakcja przeprowadzona wzorow"
         }
       }
     ]
