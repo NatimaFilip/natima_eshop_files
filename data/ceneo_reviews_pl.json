@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "super sklep szybka dostawa"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko Ok, polecam."
         }
       },
@@ -127,14 +135,6 @@
         },
         "summary": {
           "_cdata": "Szybko. I profesjonalnie"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super"
         }
       }
     ]
