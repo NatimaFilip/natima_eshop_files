@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "232640503"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1787570103"
+        },
+        "unix_timestamp": {
+          "_text": "1788264734"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "priaznivý pomer kvalita cena, dobrá komunikácia, rýchle dodanie"
+        },
+        "order_id": {
+          "_text": "226021235"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "232629360"
         },
         "source": {
@@ -1897,44 +1932,6 @@
         },
         "order_id": {
           "_text": "226016041"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "228559450"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1781806460"
-        },
-        "unix_timestamp": {
-          "_text": "1782408038"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rýchlosť a kvalita"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojný s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226016066"
         }
       }
     ]
