@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "232775833"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1787735260"
+        },
+        "unix_timestamp": {
+          "_text": "1788334112"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchle dodanie a s tovarom objednaním velka spokojnosť."
+        },
+        "order_id": {
+          "_text": "226021426"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "232640503"
         },
         "source": {
@@ -1894,44 +1929,6 @@
         },
         "order_id": {
           "_text": "226016131"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "228538579"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1781782225"
-        },
-        "unix_timestamp": {
-          "_text": "1782462643"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Vynikajúce ceny a tovar hneď na druhý deň!"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226016041"
         }
       }
     ]
