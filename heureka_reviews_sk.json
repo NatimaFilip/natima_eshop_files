@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "232869698"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1787855037"
+        },
+        "unix_timestamp": {
+          "_text": "1788415085"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "4.5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Magnézium od Nations som poznala, pretože mi ho objednávala dcéra. Keďže som bola spokojná, objednala som si ho aj sama."
+        },
+        "order_id": {
+          "_text": "226021541"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "232830106"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1787807571"
+        },
+        "unix_timestamp": {
+          "_text": "1788414753"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchlosť dodania tovaru \nKvalitne výrobky \nŠiroký výber"
+        },
+        "order_id": {
+          "_text": "226021487"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "232775833"
         },
         "source": {
@@ -1850,85 +1920,6 @@
         },
         "order_id": {
           "_text": "226016381"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "228803168"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1782153552"
-        },
-        "unix_timestamp": {
-          "_text": "1782722024"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "kvalitné produkty\nširoký výber\nrýchle dodanie\nspokojnosť\nnič"
-        },
-        "summary": {
-          "_cdata": "výborné produkty"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226016324"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "228611149"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1781879804"
-        },
-        "unix_timestamp": {
-          "_text": "1782468495"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Tovar mi prišiel dobre zabalený, v krátkom čase.Zatial som  horčík neužila, chcem začať od budúceho mesiaca.  Tento horčík mi bol . LPdoporučený ako   veľmi dobrý. Tak uvidím\n."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226016131"
         }
       }
     ]
