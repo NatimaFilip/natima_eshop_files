@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Zakupiłem preparat, teraz czekam na efekty."
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Bardzo szybko dobrze zapakowane Polecam."
         }
       },
@@ -135,14 +143,6 @@
         },
         "summary": {
           "_cdata": "produkty z tej firmy są rewelacyjne i polecam wszystkim tą firmę"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": ".super"
         }
       }
     ]
