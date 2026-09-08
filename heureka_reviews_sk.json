@@ -3,6 +3,73 @@
     "review": [
       {
         "rating_id": {
+          "_text": "233051174"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1788162701"
+        },
+        "unix_timestamp": {
+          "_text": "1788852080"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "3"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "produkty, ktoré nikde inde nenájdem\nrýchle dodanie pokiaľ nepoužijete slovenskú poštu"
+        },
+        "order_id": {
+          "_text": "226021749"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "233147826"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1788269525"
+        },
+        "unix_timestamp": {
+          "_text": "1788850294"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Rýchle dodanie, kvalitné produkty"
+        },
+        "order_id": {
+          "_text": "226021873"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "233046821"
         },
         "source": {
@@ -1847,85 +1914,6 @@
         },
         "order_id": {
           "_text": "226016816"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "229252983"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1782805512"
-        },
-        "unix_timestamp": {
-          "_text": "1783425614"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Výhoda,nemusím chodiť po obchodoch a lekárňach."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226016806"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "229060306"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1782494050"
-        },
-        "unix_timestamp": {
-          "_text": "1783061170"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rýchlosť vybavenia objednávky a jej doručenia \nPrecíznosť \nKvalita výrobku, veľká spokojnosť"
-        },
-        "summary": {
-          "_cdata": "Nemám negatívne skúsenosti"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226016618"
         }
       }
     ]
