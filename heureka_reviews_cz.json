@@ -3,6 +3,76 @@
     "review": [
       {
         "rating_id": {
+          "_text": "945919452"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1788417208"
+        },
+        "unix_timestamp": {
+          "_text": "1789029921"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Skvělý obchod s velkým výběrem a neskutečná rychlost doručení"
+        },
+        "order_id": {
+          "_text": "126067501"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "945784090"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1788355525"
+        },
+        "unix_timestamp": {
+          "_text": "1788960158"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlost dodání,cena"
+        },
+        "order_id": {
+          "_text": "126067341"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "945720534"
         },
         "source": {
@@ -1850,85 +1920,6 @@
         },
         "order_id": {
           "_text": "126056905"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "936932936"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1784560969"
-        },
-        "unix_timestamp": {
-          "_text": "1785143215"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "4.5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Výběr"
-        },
-        "summary": {
-          "_cdata": "Doporučuji. Velký výběr vitamínů atd"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste byla spokojená s naší nabídkou produktů. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
-        },
-        "order_id": {
-          "_text": "126057192"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "936875764"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1784544144"
-        },
-        "unix_timestamp": {
-          "_text": "1785135237"
-        },
-        "total_rating": {
-          "_text": "4"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Range of products is good. Delivery of goods was made the 1st day after purchase (excellent service). One disappointment was the CZK 100 offer for 1st time registration - voucher only received next day with the added constraint that the voucher is only valid for use within the next 10 days."
-        },
-        "reaction": {
-          "_cdata": "Hello, \r\n\r\nThank you for your feedback and rating. We're very pleased that you were satisfied with the range of our product selection and the speed of delivery.\r\n\r\nWe apologize for the delay in sending the voucher email — this delay shouldn't happen. Because of this, we've set your code to have unlimited validity, so you can use it without worry on one of your future orders. If you ever run into a similar issue again, please don't hesitate to reach out to our customer service line, we'll be happy to help resolve it.\r\n\r\nWishing you a great day,\r\non behalf of the Natima team, Tamara."
-        },
-        "order_id": {
-          "_text": "126057111"
         }
       }
     ]
