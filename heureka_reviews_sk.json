@@ -32,6 +32,9 @@
         "pros": {
           "_cdata": "produkty, ktoré nikde inde nenájdem\nrýchle dodanie pokiaľ nepoužijete slovenskú poštu"
         },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
         "order_id": {
           "_text": "226021749"
         }
@@ -63,6 +66,9 @@
         },
         "summary": {
           "_cdata": "Rýchle dodanie, kvalitné produkty"
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
         },
         "order_id": {
           "_text": "226021873"
@@ -99,6 +105,9 @@
         "summary": {
           "_cdata": "Rýchle vybavenie objednávky."
         },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás to teší. Sme radi, že ste boli spokojný s rýchlosťou nášho doručenia. Vaša spokojnosť je pre nás najvyššou prioritou.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
+        },
         "order_id": {
           "_text": "226021746"
         }
@@ -133,6 +142,9 @@
         },
         "pros": {
           "_cdata": "Rýchle dodanie.\nNižšie ceny \nMal som tam všetko čo som objednal."
+        },
+        "reaction": {
+          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
         },
         "order_id": {
           "_text": "226021811"
