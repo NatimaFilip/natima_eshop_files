@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "233348817"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1788539336"
+        },
+        "unix_timestamp": {
+          "_text": "1789104815"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchlosť doručenia\nKvalitné výrobky\nMaximálna spokojnosť"
+        },
+        "cons": {
+          "_cdata": "nič"
+        },
+        "order_id": {
+          "_text": "226022133"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "233051174"
         },
         "source": {
@@ -1888,44 +1926,6 @@
         },
         "order_id": {
           "_text": "226016987"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "229258491"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1782810560"
-        },
-        "unix_timestamp": {
-          "_text": "1783495179"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "rýchle doručenie, prehľadnosť obchodu, nízke ceny"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226016816"
         }
       }
     ]
