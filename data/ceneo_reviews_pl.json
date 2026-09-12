@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Super, jestem zadowolona"
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Wszystko Ok, polecam."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Super smak"
         }
       }
     ]
