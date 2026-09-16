@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "946994523"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1788936032"
+        },
+        "unix_timestamp": {
+          "_text": "1789539353"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlost kvalita"
+        },
+        "order_id": {
+          "_text": "126068854"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "944562040"
         },
         "source": {
@@ -1885,50 +1920,6 @@
         },
         "order_id": {
           "_text": "126058314"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "937930615"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1785018837"
-        },
-        "unix_timestamp": {
-          "_text": "1785568859"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Mají, co jinde ne.\nV sortimentu mnoho zcela přírodních produktů vysoké kvality i za přijatelné ceny."
-        },
-        "cons": {
-          "_cdata": "Málo akcí s aspoň 20% slevami."
-        },
-        "summary": {
-          "_cdata": "Nakupujeme u NATIMY už dlouho a opakovaně, častěji než jinde."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu i za to, že u nás nakupujete opakovaně a dlouhodobě. Velmi nás těší, že jste spokojená s našimi produkty.\r\n\r\nK slevám bychom rádi doplnili, že u nás funguje věrnostní program, v rámci kterého se slevy sčítají až do maximální výše 15 %. Pokud máte například slevový kupón nebo kupujete produkty v akci a zároveň máte věrnostní slevu, jejich kombinace se automaticky uplatní do této maximální hranice.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Tamara."
-        },
-        "order_id": {
-          "_text": "126058342"
         }
       }
     ]
