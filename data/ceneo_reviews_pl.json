@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "jestem zadowolony"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "OK !"
         }
       },
@@ -103,14 +111,6 @@
         },
         "summary": {
           "_cdata": "Polecam. Wysyłka na czas"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zakupiłem preparat, teraz czekam na efekty."
         }
       }
     ]
