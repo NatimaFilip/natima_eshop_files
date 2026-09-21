@@ -3,6 +3,70 @@
     "review": [
       {
         "rating_id": {
+          "_text": "233936569"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1789377461"
+        },
+        "unix_timestamp": {
+          "_text": "1789977010"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rýchle dodanie\nDobrý výber"
+        },
+        "order_id": {
+          "_text": "226022970"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "233936421"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1789377373"
+        },
+        "unix_timestamp": {
+          "_text": "1789974115"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "transport_quality": {
+          "_text": "4"
+        },
+        "communication": {
+          "_text": "4.5"
+        },
+        "pros": {
+          "_cdata": "tovar dodaný, nepoškodený, pomerne rýchlo"
+        },
+        "order_id": {
+          "_text": "226022969"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "233604025"
         },
         "source": {
@@ -1838,91 +1902,6 @@
         },
         "order_id": {
           "_text": "226017597"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "229818258"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1783605665"
-        },
-        "unix_timestamp": {
-          "_text": "1784208413"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Kvalitné a účinne doplnky, dobré ceny, rýchla dodávka"
-        },
-        "cons": {
-          "_cdata": "Žiadna nevýhoda.⁸"
-        },
-        "summary": {
-          "_cdata": "Odporúčam"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nďakujeme za Vašu pozitívnu spätnú väzbu, veľmi nás teší, že ste spokojná s našimi produktmi a službami. Vaša spokojnosť je našou najvyššou prioritou. \r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226017615"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "229706571"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1783455169"
-        },
-        "unix_timestamp": {
-          "_text": "1784010315"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Tovar bol doručený rýchlo,pekne zabalený,za dva dni. Som spokojná"
-        },
-        "summary": {
-          "_cdata": "Odporúčam,kvalitu celkovo hodnotím až po užití celej dávky, zatiaľ som zjedla asi 10 tabletiek, zlepšil sa mi spanok"
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226017446"
         }
       }
     ]
