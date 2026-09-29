@@ -3,6 +3,79 @@
     "review": [
       {
         "rating_id": {
+          "_text": "950150945"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1790091355"
+        },
+        "unix_timestamp": {
+          "_text": "1790670554"
+        },
+        "total_rating": {
+          "_text": "4.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Rychlost doručení"
+        },
+        "order_id": {
+          "_text": "126072228"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "949821243"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1789989594"
+        },
+        "unix_timestamp": {
+          "_text": "1790668368"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "fajn výběr\ndobré složení doplňků stravy a koncentrace účinných látek\nvelmi rychle doručeno\npečlivě zabaleno, i balení doplňků vypadají solidně a hezky"
+        },
+        "summary": {
+          "_cdata": "Jsem spokojená. Objednávala jsem tam doplňky stravy poprvé, tak ještě nemůžu hodnotit účinnost, ale líbí se mi složení, koncentrace, balení a poměr cena:výkon. Tak doufám, že ani účinky mě nezklamou.\n\nVelmi solidně zabaleno a rychle doručeno. Ráda objednám znovu."
+        },
+        "order_id": {
+          "_text": "126071891"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "949715701"
         },
         "source": {
@@ -1823,88 +1896,6 @@
         },
         "order_id": {
           "_text": "126064057"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "942951192"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1787169449"
-        },
-        "unix_timestamp": {
-          "_text": "1787732269"
-        },
-        "total_rating": {
-          "_text": "3.5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rychlé doručení"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byla spokojená s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126064198"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "941453069"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1786574639"
-        },
-        "unix_timestamp": {
-          "_text": "1787147039"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "4"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Cena, rychlé dodání \nDoporučuji"
-        },
-        "cons": {
-          "_cdata": "Nic"
-        },
-        "summary": {
-          "_cdata": "Doporucuji, kvalitní zboží"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126062491"
         }
       }
     ]
