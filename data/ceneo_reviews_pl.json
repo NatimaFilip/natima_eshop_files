@@ -6,6 +6,22 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "wszystko ok"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Super sklepik zdorwe opcje szybka obsługa są też rabaciki"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko sprawnie."
         }
       },
@@ -95,22 +111,6 @@
         },
         "summary": {
           "_cdata": "Gorąco polecam ten sklep. Zamówienie zrealizowano super sprawnie."
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Polecam"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Wszystko ok"
         }
       }
     ]
