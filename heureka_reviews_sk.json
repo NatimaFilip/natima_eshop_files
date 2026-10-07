@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "234759952"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1790365118"
+        },
+        "unix_timestamp": {
+          "_text": "1791367765"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Rýchle objednanie aj dodanie,spokojnosť."
+        },
+        "order_id": {
+          "_text": "226023920"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "234989945"
         },
         "source": {
@@ -1870,44 +1905,6 @@
         },
         "order_id": {
           "_text": "226019259"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "230855228"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1785080409"
-        },
-        "unix_timestamp": {
-          "_text": "1785673105"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Všetko OK, od objednávky až po promptné doručenie. Osvedčený horčík."
-        },
-        "reaction": {
-          "_cdata": "Dobrý deň,\r\n\r\nveľmi si ceníme Vašu pozitívnu spätnú väzbu. Spokojnosť zákazníkov je našou najvyššou prioritou. Tešíme sa na Vaše ďalšie objednávky.\r\n\r\nPrajeme Vám pekný deň,\r\nza tím Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "226019026"
         }
       }
     ]
