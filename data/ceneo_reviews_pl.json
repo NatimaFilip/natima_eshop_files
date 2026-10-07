@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "Polecam"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "wszystko ok"
         }
       },
@@ -103,14 +111,6 @@
         },
         "summary": {
           "_cdata": "Bez zarzutu"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Gorąco polecam ten sklep. Zamówienie zrealizowano super sprawnie."
         }
       }
     ]
