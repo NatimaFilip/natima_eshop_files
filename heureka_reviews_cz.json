@@ -3,6 +3,67 @@
     "review": [
       {
         "rating_id": {
+          "_text": "954244825"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1791897062"
+        },
+        "unix_timestamp": {
+          "_text": "1792492808"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "summary": {
+          "_cdata": "Jsou vstřícní a ochotní."
+        },
+        "order_id": {
+          "_text": "126076832"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "954192374"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1791885405"
+        },
+        "unix_timestamp": {
+          "_text": "1792476701"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "vse paradni"
+        },
+        "order_id": {
+          "_text": "126076770"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "953843331"
         },
         "source": {
@@ -1832,82 +1893,6 @@
         },
         "order_id": {
           "_text": "126066084"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "946602768"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1788774384"
-        },
-        "unix_timestamp": {
-          "_text": "1789382220"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "velká spokojenost"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126068338"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "946756375"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1788818142"
-        },
-        "unix_timestamp": {
-          "_text": "1789374008"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "pickup_time": {
-          "_text": "5"
-        },
-        "pickup_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "+ dobrá orientace v eshop\n+ rychlost dodání"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126068544"
         }
       }
     ]
