@@ -3,6 +3,41 @@
     "review": [
       {
         "rating_id": {
+          "_text": "956851791"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1792848521"
+        },
+        "unix_timestamp": {
+          "_text": "1793429317"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "4"
+        },
+        "summary": {
+          "_cdata": "vše v pořádku"
+        },
+        "order_id": {
+          "_text": "126079412"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "946415758"
         },
         "source": {
@@ -1867,44 +1902,6 @@
         },
         "order_id": {
           "_text": "126070124"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "947823576"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1789290781"
-        },
-        "unix_timestamp": {
-          "_text": "1789905827"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Everything was great, many thanks"
-        },
-        "reaction": {
-          "_cdata": "Hello,\r\n\r\nThank you very much for your positive feedback. Customer satisfaction is our highest priority. We look forward to your future orders.\r\n\r\nHave a wonderful day,\r\non behalf of the Natima team, Kateřina."
-        },
-        "order_id": {
-          "_text": "126069817"
         }
       }
     ]
