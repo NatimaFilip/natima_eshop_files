@@ -6,6 +6,14 @@
           "_text": "5"
         },
         "summary": {
+          "_cdata": "oki"
+        }
+      },
+      {
+        "total_rating": {
+          "_text": "5"
+        },
+        "summary": {
           "_cdata": "Wszystko w porządku, kolejny zakup w Natima"
         }
       },
@@ -111,14 +119,6 @@
         },
         "summary": {
           "_cdata": "Witamina D3 jest taka o jaką mi  chodziło"
-        }
-      },
-      {
-        "total_rating": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Bardzo dobra jakość, szybka dostawa."
         }
       }
     ]
