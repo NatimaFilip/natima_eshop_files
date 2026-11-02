@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "957333961"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1793036221"
+        },
+        "unix_timestamp": {
+          "_text": "1793609035"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlé doručení"
+        },
+        "summary": {
+          "_cdata": "Jsem velmi spokojena"
+        },
+        "order_id": {
+          "_text": "126079824"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "956911433"
         },
         "source": {
@@ -1855,47 +1893,6 @@
         },
         "order_id": {
           "_text": "126070747"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "948650122"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1789556411"
-        },
-        "unix_timestamp": {
-          "_text": "1790150564"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "dobré výrobky\nrychlé vyřízení objednávky\nzajímavé produkty"
-        },
-        "summary": {
-          "_cdata": "mohu jen doporučit"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojená s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126070745"
         }
       }
     ]
