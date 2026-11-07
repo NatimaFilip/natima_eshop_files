@@ -3,6 +3,73 @@
     "review": [
       {
         "rating_id": {
+          "_text": "958221545"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1793438284"
+        },
+        "unix_timestamp": {
+          "_text": "1794047034"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Zboží dorazilo rychle"
+        },
+        "order_id": {
+          "_text": "126080591"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "958231493"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1793441542"
+        },
+        "unix_timestamp": {
+          "_text": "1794035546"
+        },
+        "total_rating": {
+          "_text": "4.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "4.5"
+        },
+        "transport_quality": {
+          "_text": "4.5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Dobrá komunikace"
+        },
+        "order_id": {
+          "_text": "126080599"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "957991883"
         },
         "source": {
@@ -31,6 +98,9 @@
         },
         "cons": {
           "_cdata": "Malý výběr výdejních boxů, kde by byla možnost vyzvednutí zdarma ..."
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši zpětnou vazbu. Doručení do výdejních boxů je zpoplatněné, protože jde o placenou službu dopravců a tento poplatek za přepravu se bohužel promítá do ceny dopravy.\r\n\r\nPokud byste ale chtěla nakupovat úplně bez poplatků, nabízíme osobní odběr přímo u nás, který žádného dopravce nevyžaduje, a je proto zcela zdarma. Moc rádi Vám objednávku předáme osobně.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
         },
         "order_id": {
           "_text": "126080386"
@@ -1823,85 +1893,6 @@
         },
         "order_id": {
           "_text": "126071446"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "949716422"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1789948126"
-        },
-        "unix_timestamp": {
-          "_text": "1790497618"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Dobré doručení zboží"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byla spokojená s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126071775"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "948482866"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1789489694"
-        },
-        "unix_timestamp": {
-          "_text": "1790417700"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Přehledný web\nRychlost\nKomunikace"
-        },
-        "summary": {
-          "_cdata": "Doporučuji"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126070545"
         }
       }
     ]
