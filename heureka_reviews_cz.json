@@ -3,6 +3,67 @@
     "review": [
       {
         "rating_id": {
+          "_text": "961934696"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1794655953"
+        },
+        "unix_timestamp": {
+          "_text": "1795257907"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Rychlé vyřízení"
+        },
+        "order_id": {
+          "_text": "126083331"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "961584317"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1794538797"
+        },
+        "unix_timestamp": {
+          "_text": "1795195338"
+        },
+        "total_rating": {
+          "_text": "0.5"
+        },
+        "recommends": {
+          "_text": "0"
+        },
+        "summary": {
+          "_cdata": "Spíše upozornim na druhou položku objednávky. Optimized Fucoidan fi Life extension. Balení obsahuje 60 kapslí. Datum spotřeby 11/2026. Číslo výrobní šarže M24348B04  potvrzuje rok výroby 2024. Tedy i při vyšším dávkování 2 kapsle denně nelze spotřebovat do konce 11/2026. Při objednávání jsem nebyl upozorněn  na procházející produkt. Domníval jsem se, že v dnešní době zajištění IT, QR,.. načítání při expedici toto není možné. Nejedná se o kovovýrobek, aby mě datum tolik neznepokojilo. Hodnocení eshopu na intenetu zde evidentně selhalo. U firmy Natima dále nakupovat nebudu ani ji nedoporoučím."
+        },
+        "order_id": {
+          "_text": "126083143"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "961409568"
         },
         "source": {
@@ -1736,82 +1797,6 @@
         },
         "order_id": {
           "_text": "126076542"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "955091490"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1792231116"
-        },
-        "unix_timestamp": {
-          "_text": "1792932695"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Supr"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126077767"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "955371439"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1792346245"
-        },
-        "unix_timestamp": {
-          "_text": "1792927087"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Rychlost"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byl spokojený s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126078048"
         }
       }
     ]
