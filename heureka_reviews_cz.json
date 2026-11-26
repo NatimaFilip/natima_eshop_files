@@ -3,6 +3,44 @@
     "review": [
       {
         "rating_id": {
+          "_text": "963327846"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1795028615"
+        },
+        "unix_timestamp": {
+          "_text": "1795634160"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Zboží dorazilo rychle\nDobrá komunikace\nPečlivě zabaleno\nDobré ceny\nŠiroký výběr zboží\nZboží odpovídalo popisu\nSpolehlivý obchod\nInformace o stavu objednávky\nPřehledný e-shop"
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
+        },
+        "order_id": {
+          "_text": "126084227"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "963196578"
         },
         "source": {
@@ -28,6 +66,9 @@
         },
         "pros": {
           "_cdata": "Zboží dorazilo rychle"
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byla spokojená s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
         },
         "order_id": {
           "_text": "126084150"
@@ -64,6 +105,9 @@
         "pros": {
           "_cdata": "Rychlé dodání\nZboží odpovídalo popisu\nŠiroký výběr zboží"
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojený s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
+        },
         "order_id": {
           "_text": "126084057"
         }
@@ -98,6 +142,9 @@
         },
         "pros": {
           "_cdata": "Zboží dorazilo rychle"
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšila. Jsme rádi, že jste byl spokojený s rychlostí našeho doručení. Vaše spokojenost je pro nás na prvním místě.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
         },
         "order_id": {
           "_text": "126083930"
@@ -134,6 +181,9 @@
         "pros": {
           "_cdata": "Rychle připraveno k vyzvednutí\nDobrá komunikace\nPohodlné výdejní místo\nDobré ceny"
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
+        },
         "order_id": {
           "_text": "126083851"
         }
@@ -169,6 +219,9 @@
         "pros": {
           "_cdata": "Rychlé dodání\nDobrá komunikace\nPečlivě zabaleno\nVýhodná cena\nŠiroký výběr zboží\nZboží odpovídalo popisu"
         },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojený s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
+        },
         "order_id": {
           "_text": "126083873"
         }
@@ -203,6 +256,9 @@
         },
         "pros": {
           "_cdata": "Zboží dorazilo rychle\nPečlivě zabaleno\nZboží odpovídalo popisu"
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu, moc nás potěšilo, že jste spokojená s našimi produkty a službami. Naše největší priorita je Vaše spokojenost. \r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
         },
         "order_id": {
           "_text": "126083837"
@@ -346,6 +402,9 @@
         },
         "summary": {
           "_cdata": "Spíše upozornim na druhou položku objednávky. Optimized Fucoidan fi Life extension. Balení obsahuje 60 kapslí. Datum spotřeby 11/2026. Číslo výrobní šarže M24348B04  potvrzuje rok výroby 2024. Tedy i při vyšším dávkování 2 kapsle denně nelze spotřebovat do konce 11/2026. Při objednávání jsem nebyl upozorněn  na procházející produkt. Domníval jsem se, že v dnešní době zajištění IT, QR,.. načítání při expedici toto není možné. Nejedná se o kovovýrobek, aby mě datum tolik neznepokojilo. Hodnocení eshopu na intenetu zde evidentně selhalo. U firmy Natima dále nakupovat nebudu ani ji nedoporoučím."
+        },
+        "reaction": {
+          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši recenzi a za podrobný popis, bereme ho vážně. Rozumíme Vašemu zklamání. U balení Life Extension Optimized Fucoidan s 60 kapslemi a datem spotřeby 11/2026 je zbývající doba na spotřebu při doporučeném dávkování skutečně krátká a na to jsme Vás měli při objednávce upozornit. Mrzí nás, že se tak nestalo, a omlouváme se.\r\n\r\nPrávě kvůli krátké expiraci tento produkt z nabídky stahujeme a balení s delší trvanlivostí už nemáme. Ozvali jsme se Vám e-mailem a reklamaci vyřešíme vrácením plné částky za tuto položku. Děkujeme, že jste nás na to upozornil, zpětná vazba, jako je ta Vaše, nám pomáhá, aby se podobná situace neopakovala. Budeme rádi, když nám někdy dáte příležitost udělat na Vás lepší dojem.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
         },
         "order_id": {
           "_text": "126083143"
@@ -1771,44 +1830,6 @@
         },
         "order_id": {
           "_text": "126080299"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "957429754"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1793089895"
-        },
-        "unix_timestamp": {
-          "_text": "1793700429"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "summary": {
-          "_cdata": "Zásilka mi byla doručena na x boxu"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126079915"
         }
       }
     ]
