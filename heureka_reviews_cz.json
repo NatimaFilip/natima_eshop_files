@@ -3,6 +3,117 @@
     "review": [
       {
         "rating_id": {
+          "_text": "963893037"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1795196597"
+        },
+        "unix_timestamp": {
+          "_text": "1795779645"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Ochotný personál na výdejně"
+        },
+        "order_id": {
+          "_text": "126084573"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "963883788"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1795194245"
+        },
+        "unix_timestamp": {
+          "_text": "1795773728"
+        },
+        "total_rating": {
+          "_text": "4.5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "pickup_time": {
+          "_text": "5"
+        },
+        "pickup_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "4.5"
+        },
+        "pros": {
+          "_cdata": "Dobrá komunikace\nŠiroký výběr zboží\nZboží odpovídalo popisu\nVše proběhlo bez problémů"
+        },
+        "cons": {
+          "_cdata": "Nic"
+        },
+        "summary": {
+          "_cdata": "Nabízí zajímavý sortiment a vybrané zboží je připraveno k odeslání okamzite"
+        },
+        "order_id": {
+          "_text": "126084568"
+        }
+      },
+      {
+        "rating_id": {
+          "_text": "963736646"
+        },
+        "source": {
+          "_text": "regular"
+        },
+        "ordered": {
+          "_text": "1795160893"
+        },
+        "unix_timestamp": {
+          "_text": "1795770241"
+        },
+        "total_rating": {
+          "_text": "5"
+        },
+        "recommends": {
+          "_text": "1"
+        },
+        "delivery_time": {
+          "_text": "5"
+        },
+        "transport_quality": {
+          "_text": "5"
+        },
+        "communication": {
+          "_text": "5"
+        },
+        "pros": {
+          "_cdata": "Zboží dorazilo rychle\nDobrá komunikace\nPečlivě zabaleno\nDobré ceny\nŠiroký výběr zboží"
+        },
+        "order_id": {
+          "_text": "126084480"
+        }
+      },
+      {
+        "rating_id": {
           "_text": "963327846"
         },
         "source": {
@@ -1716,120 +1827,6 @@
         },
         "order_id": {
           "_text": "126080591"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "958231493"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1793441542"
-        },
-        "unix_timestamp": {
-          "_text": "1794035546"
-        },
-        "total_rating": {
-          "_text": "4.5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "4.5"
-        },
-        "transport_quality": {
-          "_text": "4.5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "pros": {
-          "_cdata": "Dobrá komunikace"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši pozitivní zpětnou vazbu. Vážíme si toho, že jste spokojený s naší komunikací. Naší prioritou je vždy poskytovat rychlou a profesionální zákaznickou podporu.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126080599"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "957991883"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1793309177"
-        },
-        "unix_timestamp": {
-          "_text": "1793874880"
-        },
-        "total_rating": {
-          "_text": "4.5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "3.5"
-        },
-        "transport_quality": {
-          "_text": "3.5"
-        },
-        "communication": {
-          "_text": "5"
-        },
-        "cons": {
-          "_cdata": "Malý výběr výdejních boxů, kde by byla možnost vyzvednutí zdarma ..."
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nděkujeme za Vaši zpětnou vazbu. Doručení do výdejních boxů je zpoplatněné, protože jde o placenou službu dopravců a tento poplatek za přepravu se bohužel promítá do ceny dopravy.\r\n\r\nPokud byste ale chtěla nakupovat úplně bez poplatků, nabízíme osobní odběr přímo u nás, který žádného dopravce nevyžaduje, a je proto zcela zdarma. Moc rádi Vám objednávku předáme osobně.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126080386"
-        }
-      },
-      {
-        "rating_id": {
-          "_text": "957874326"
-        },
-        "source": {
-          "_text": "regular"
-        },
-        "ordered": {
-          "_text": "1793274201"
-        },
-        "unix_timestamp": {
-          "_text": "1793869677"
-        },
-        "total_rating": {
-          "_text": "5"
-        },
-        "recommends": {
-          "_text": "1"
-        },
-        "delivery_time": {
-          "_text": "5"
-        },
-        "transport_quality": {
-          "_text": "5"
-        },
-        "communication": {
-          "_text": "4.5"
-        },
-        "pros": {
-          "_cdata": "Jsou skvělí\nVýrobky mňamka\nVšechny výrobky supwr"
-        },
-        "reaction": {
-          "_cdata": "Dobrý den,\r\n\r\nvelice si vážíme Vaší pozitivní zpětné vazby. Spokojenost našich zákazníků je pro nás nejvyšší prioritou. Těšíme se na Vaše další objednávky.\r\n\r\nPřejeme Vám krásný den,\r\nza tým Natima, Kateřina."
-        },
-        "order_id": {
-          "_text": "126080299"
         }
       }
     ]
